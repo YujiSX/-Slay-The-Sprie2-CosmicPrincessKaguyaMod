@@ -1,0 +1,157 @@
+{
+	"YACHIYO_ANCIENT.title": "ヤチヨ",
+	"YACHIYO_ANCIENT.epithet": "ツクヨミ管理人",
+
+	"YACHIYO_ANCIENT.pages.INITIAL.description": "ツクヨミへの扉をくぐると、ヤチヨの姿がぼんやりと現れる。",
+	"YACHIYO_ANCIENT.pages.DONE.description": "ヤチヨは嬉しそうにあなたの手を引いて、ツクヨミへと向かう。",
+
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACHIYO_SHRINE.title": "ヤチヨの神棚",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACHIYO_SHRINE.description": "[gold]Remember[/gold] 1枚をあなたのデッキに加える。",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.TSUKUYOMI_SHRINE.title": "ツクヨミ",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.TSUKUYOMI_SHRINE.description": "[gold]星降る海[/gold] 1枚をあなたのデッキに加える。",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.KAGUYA_ACCOUNT.title": "かぐやのアカウント",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.KAGUYA_ACCOUNT.description": "[gold]私は、わたしの事が好き！[/gold] 1枚をあなたのデッキに加える。",
+
+	"YACHIYO_ANCIENT.pages.INITIAL.options.LIVE_STREAMING.title": "ライブ配信",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.COSTUME_SYSTEM.title": "着替えシステム",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACCHO_SPECIAL_CARE.title": "ヤチヨの特別サービス",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L1.title": "ガチャマシン",
+
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-0.ancient": "ヤオヨロー！神々のみんな、今日も最高だった？",
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-0.next": "続ける",
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-1.char": "ヤチヨ！",
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-1.next": "続ける",
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-2.ancient": "仮想空間ツクヨミへ　ようこそ！",
+	"YACHIYO_ANCIENT.talk.ANY.0-0r.ancient": "ねえ、また旅に出るの？",
+	
+	"KAGUYA_ANCIENT.title": "かぐや",
+	"KAGUYA_ANCIENT.epithet": "月の姫",
+
+	"KAGUYA_ANCIENT.pages.INITIAL.description": "元気いっぱいの姿があなたの前に現れる。",
+	"KAGUYA_ANCIENT.pages.DONE.description": "かぐやは微笑みながらあなたを見送り、月明かりが帰り道を照らす。",
+
+	"KAGUYA_ANCIENT.pages.INITIAL.options.HAPPY_SYNTHESIZER_RELIC.title": "ハッピーシンセサイザー",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.HAPPY_SYNTHESIZER_RELIC.description": "[gold]ハッピーシンセサイザー[/gold] 1枚をあなたのデッキに加える。",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.PERFORMANCE_COSTUME.title": "ステージ衣装",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.PERFORMANCE_COSTUME.description": "[gold]ワールドイズマイン[/gold] 1枚をあなたのデッキに加える。",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.TEARS_OF_MEMORY.title": "記憶の涙",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.TEARS_OF_MEMORY.description": "[gold]Ex-Otogibanashi[/gold] 1枚をあなたのデッキに加える。",
+	
+	"KAGUYA_ANCIENT.pages.INITIAL.options.KAGUYA_HAMMER.title": "かぐやの大槌",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.GLUTTONOUS_FLYING_FISH.title": "食いしん坊トビウオ",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.MOON_HEADDRESS.title": "月のヘアバンド",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.SUN_HEADDRESS.title": "かぐやのお願い",
+
+	"KAGUYA_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L2.title": "ガチャマシン",
+
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-0.ancient": "かぐやほー！ あなたも私のライブを見に来たの？",
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-0.next": "続ける",
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-1.char": "かぐや、結婚してください！",
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-1.next": "続ける",
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-2.ancient": "あら、どうしようかな。いろPに勝てたら考えてあげてもいいよ？",
+	"KAGUYA_ANCIENT.talk.ANY.0-0r.ancient": "また私のライブを見に来たの！",
+	
+	"SAKAYORI_IROHA_ANCIENT.title": "酒寄彩葉",
+	"SAKAYORI_IROHA_ANCIENT.epithet": "天才科学者",
+
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.description": "実験室で、酒寄彩葉は何かの装置を集中して調整している。あなたの気配に気づき、顔を上げ、その瞳に一瞬の戸惑いが映る。",
+	"SAKAYORI_IROHA_ANCIENT.pages.DONE.description": "彩葉はあなたに手を振り、再び研究に戻る。実験室の扉が静かに閉まる。",
+
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.PARTING_GIFT.title": "別れの贈り物",
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.IDEAL.title": "理想",
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.ORDINARY_HAPPINESS.title": "平凡な幸せ",
+
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.FUSHI_DOLL.title": "FUSHI人形",
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.IROHA_IPAD.title": "彩葉のiPad",
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.IROHA_SCHEDULE.title": "彩葉のスケジュール",
+
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L3.title": "ガチャマシン",
+
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-0.ancient": "（目の前の女性はあなたの出現に驚いているようだ）",
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-0.next": "...",
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-1.char": "あの…あなたは…？",
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-1.next": "...",
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-2.ancient": "近いうちに困難に直面するかもしれない。これらが役立つことを願って。",
+	"SAKAYORI_IROHA_ANCIENT.talk.ANY.0-0r.ancient": "やり残したことを成し遂げなさい。",
+	
+	"BLACK_ONYX_ANCIENT.title": "ブラックオニキス",
+	"BLACK_ONYX_ANCIENT.epithet": "トップライバー",
+
+	"BLACK_ONYX_ANCIENT.pages.INITIAL.description": "今、あなたの目の前に立つのはツクヨミのトップストリームグループ。",
+	"BLACK_ONYX_ANCIENT.pages.DONE.description": "三人組はあなたを見送る。",
+	
+	"BLACK_ONYX.pages.INITIAL.options.DATA_USB.title": "データUSB",
+	"BLACK_ONYX.pages.INITIAL.options.BROTHERS_DEPOSIT.title": "兄の貯金",
+	"BLACK_ONYX.pages.INITIAL.options.NAI_BOW.title": "乃依の弓",
+	"BLACK_ONYX.pages.INITIAL.options.LANDMINE_TRAP.title": "地雷罠",
+	"BLACK_ONYX.pages.INITIAL.options.LEI_BIG_SWORD.title": "雷の大刀",
+	"BLACK_ONYX.pages.INITIAL.options.GASHAPON_MACHINE_L2.title": "ガチャマシン",
+
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-0.ancient": "よう、子ウサギども！",
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-0.next": "続ける",
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-1.char": "......",
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-1.next": "続ける",
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-2.ancient": "俺たちに応援してね！",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-0.ancient": "お前、[blue]彩葉[/blue]だろ？",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-0.next": "続ける",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-1.char": "チガウ、オレ、イロハ、チガウ。",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-1.next": "続ける",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-2.ancient": "お兄ちゃんも久々に会えてうれし～。よしよししてやろうか？",
+	"BLACK_ONYX_ANCIENT.talk.ANY.0-0r.ancient": "やりたいのこと、諦めやな。",
+	
+	"ROKA_AND_MAMI_ANCIENT.title": "芦花と真実",
+	"ROKA_AND_MAMI_ANCIENT.epithet": "永遠の友達",
+
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.description": "芦花と真実が並んで立っている。",
+	"ROKA_AND_MAMI_ANCIENT.pages.DONE.description": "芦花と真実は笑顔で手を振って別れを告げる。",
+
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.ROKA_NAIL_ART.title": "芦花のネイルアート",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.ROKA_MAKEUP_BAG.title": "芦花の化粧ポーチ",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.CHARMING_ANTLER.title": "魅惑の枝角",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.MAMI_GOURMET_GUIDE.title": "真実のグルメガイド",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.MAMI_ONIGIRI.title": "真実のおにぎり",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.SPOON_AND_FORK.title": "スプーン&フォーク",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L3.title": "ガチャマシン（3階）",
+
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-0.ancient": "目の前の二人の女性はあなたの出現に驚いているようだ。",
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-0.next": "続ける",
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-1.char": "芦花？真実？",
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-1.next": "続ける",
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-2.ancient": "これを持っていって。",
+	"ROKA_AND_MAMI_ANCIENT.talk.ANY.0-0r.ancient": "これを持っていって。",
+	
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-0r.ancient": "現実と仮想をさまよう少女よ、何を求めるのか？",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-0r.next": "答える",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-1r.char": "……名前が呼ばれるのを待っている。呼ばれるまでは、どこにも行かない。",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-1r.next": "続ける",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-2r.ancient": "ただ『待ったけど間違えた』という恐怖から逃げているだけだ。",
+
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-0r.ancient": "また戻ってきた。時間はあなたにとって廊下のようなもの——終われないのは、終わりたくないからだ。",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-0r.next": "続ける",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-1r.char": "廊下はいい。終わりは良くない。終わりは……もう待たなくていいということだから。",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-1r.next": "続ける",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-2r.ancient": "愚かだ。終わりに向かわなければ、永遠にただの反響に過ぎない。",
+
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-0r.ancient": "では、そこに立っていろ。塔が覚えている——あなたは何度も来たが、何も持って行かなかったと。",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-0r.next": "続ける",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-1r.char": "何を持って行くって…",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-1r.next": "続ける",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-2r.ancient": "本当にあの少女を救いたいのなら、ここで止まるべきではない。",
+	"FUSHI_ANCIENT.title": "FUSHI",
+	"FUSHI_ANCIENT.epithet": "ウミウシ",
+
+	"FUSHI_ANCIENT.pages.INITIAL.description": "深海の香りが漂い、古びた影が静かに立っている。",
+	"FUSHI_ANCIENT.pages.DONE.description": "FUSHIの影は次第に消え、深海の贈り物を残す。",
+
+	"FUSHI_ANCIENT.pages.INITIAL.options.SEA_SLUG_MEMORY.title": "ウミウシの記憶",
+	"FUSHI_ANCIENT.pages.INITIAL.options.SEA_SLUG_BLESSING.title": "ウミウシの祝福",
+	"FUSHI_ANCIENT.pages.INITIAL.options.TIMELESS_BOND.title": "時を超えた絆",
+	"FUSHI_ANCIENT.pages.INITIAL.options.SUPER_GASHAPON_MACHINE.title": "スーパーガチャマシン",
+
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-0.ancient": "彼女はいつだってあなたを信じているよ…",
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-0.next": "続ける",
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-1.char": "...",
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-1.next": "続ける",
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-2.ancient": "すべてを書き換えに行こう！",
+	"FUSHI_ANCIENT.talk.ANY.0-0r.ancient": "彼女はいつだってあなたを信じているよ…"
+}

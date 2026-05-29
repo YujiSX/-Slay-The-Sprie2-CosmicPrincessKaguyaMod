@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bpbxqpgy3xkm3"]
+
+[ext_resource type="Texture2D" uid="uid://dwtpja4iuirhr" path="res://HinaMods/Images/Charui/character_icon_char_name.png" id="1_nj47q"]
+
+[resource]
+atlas = ExtResource("1_nj47q")

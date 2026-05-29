@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bqx140q50shb7"]
+
+[ext_resource type="Texture2D" uid="uid://coxreke3qm5bl" path="res://images/packed/card_portraits/event/world_princess.png" id="1_2thuc"]
+
+[resource]
+atlas = ExtResource("1_2thuc")
+region = Rect2(0, 0, 606, 852)

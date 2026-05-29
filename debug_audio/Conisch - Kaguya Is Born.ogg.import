@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dhag7xabk1k0n"
+path="res://.godot/imported/Conisch - Kaguya Is Born.ogg-72b2cd93d6669c553f7d99f6fcbc3cdd.oggvorbisstr"
+
+[deps]
+
+source_file="res://debug_audio/Conisch - Kaguya Is Born.ogg"
+dest_files=["res://.godot/imported/Conisch - Kaguya Is Born.ogg-72b2cd93d6669c553f7d99f6fcbc3cdd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

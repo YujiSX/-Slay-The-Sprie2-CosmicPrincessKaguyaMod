@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://l8jniwmxualb"]
+
+[ext_resource type="Texture2D" uid="uid://desifx6ochu4v" path="res://images/relics/ordinary_happiness.png" id="1_ae0au"]
+
+[resource]
+atlas = ExtResource("1_ae0au")
+region = Rect2(0, 0, 256, 256)

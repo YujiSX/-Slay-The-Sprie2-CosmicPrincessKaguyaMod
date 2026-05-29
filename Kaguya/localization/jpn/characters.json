@@ -1,0 +1,17 @@
+{
+  "KAGUYA-SAKAYORI_IROHA.aromaPrinciple": "[sine][blue]……待つ……[/blue][/sine]",
+  "KAGUYA-SAKAYORI_IROHA.banter.alive.endTurnPing": "失敗しても知らないよ",
+  "KAGUYA-SAKAYORI_IROHA.banter.dead.endTurnPing": "……",
+  "KAGUYA-SAKAYORI_IROHA.cardsModifierDescription": "彩葉のカードが報酬やショップに出現するようになる。",
+  "KAGUYA-SAKAYORI_IROHA.cardsModifierTitle": "彩葉カード",
+  "KAGUYA-SAKAYORI_IROHA.description": "17歳の女子高生。\n学校では文武両道の優等生だが、その実、自力で生活費と学費を稼ぐ苦労人。\n音楽経験があり作曲ができるが、とある理由から辞めてしまった。",
+  "KAGUYA-SAKAYORI_IROHA.eventDeathPrevention": "こんなところで終わるわけには……",
+  "KAGUYA-SAKAYORI_IROHA.goldMonologue": "[sine]このゴールド……役に立つかもしれない……[/sine]",
+  "KAGUYA-SAKAYORI_IROHA.possessiveAdjective": "彼女の",
+  "KAGUYA-SAKAYORI_IROHA.pronounObject": "彼女",
+  "KAGUYA-SAKAYORI_IROHA.pronounPossessive": "彼女のもの",
+  "KAGUYA-SAKAYORI_IROHA.pronounSubject": "彼女",
+  "KAGUYA-SAKAYORI_IROHA.title": "酒寄彩葉",
+  "KAGUYA-SAKAYORI_IROHA.titleObject": "酒寄彩葉",
+  "KAGUYA-SAKAYORI_IROHA.unlockText": "このキャラクターをアンロックする。"
+}

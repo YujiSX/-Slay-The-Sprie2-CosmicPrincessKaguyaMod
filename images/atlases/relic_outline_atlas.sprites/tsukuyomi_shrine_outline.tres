@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://km50w63e1cp0"]
+
+[ext_resource type="Texture2D" uid="uid://cr5h4j33wpiiy" path="res://images/relics/tsukuyomi_shrine_outline.png" id="1_xvii0"]
+
+[resource]
+atlas = ExtResource("1_xvii0")
+region = Rect2(0, 0, 256, 256)

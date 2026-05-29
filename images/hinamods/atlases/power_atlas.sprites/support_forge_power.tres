@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dipdyirgq4ig8"]
+
+[ext_resource type="Texture2D" uid="uid://dk08qycyt7d3s" path="res://HinaMods/Images/Powers/support_forge_power.png" id="1_5q27f"]
+
+[resource]
+atlas = ExtResource("1_5q27f")

@@ -1,0 +1,17 @@
+{
+"KAGUYA-SMOOTHIE.title": "冰沙",
+	"KAGUYA-SMOOTHIE.description": "从[gold]抽牌堆[/gold]和[gold]弃牌堆[/gold]各选择一张牌[gold]回忆[/gold]。",
+	"KAGUYA-PANCAKE.title": "松饼",
+	"KAGUYA-PANCAKE.description": "移除所有[gold]过劳[/gold]。获得{RegenPower}层[gold]再生[/gold]。",
+	"KAGUYA-SUSHI.title": "寿司",
+	"KAGUYA-SUSHI.description": "从3张随机[gold]伙伴[/gold]牌中选择1张加入[gold]手牌[/gold]，该牌本回合免费打出。",
+	"KAGUYA-APPLE_CANDY.title": "苹果糖",
+	"KAGUYA-APPLE_CANDY.description": "若处于[gold]月读[/gold]，进入[gold]现实[/gold]；反之，进入[gold]月读[/gold]。","KAGUYA-SUPPORT_POTION.title": "支援药水",
+"KAGUYA-SUPPORT_POTION.description": "随机将2张[blue]支援牌[/blue]加入你的手牌。",
+
+"KAGUYA-MOON_POTION.title": "月亮药水",
+"KAGUYA-MOON_POTION.description": "获得3层[gold]月夜[/gold]。",
+
+"KAGUYA-STAR_NIGHT_POTION.title": "循声药水",
+"KAGUYA-STAR_NIGHT_POTION.description": "你打出的下一张牌后，该牌获得[gold]重放[/gold]1和[gold]虚无[/gold]。"
+}

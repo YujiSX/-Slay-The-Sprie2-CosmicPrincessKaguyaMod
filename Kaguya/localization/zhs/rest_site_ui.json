@@ -1,0 +1,14 @@
+{
+	"OPTION_YACCHO_SPECIAL_CARE.name": "八千代的特殊照顾",
+	"OPTION_YACCHO_SPECIAL_CARE.description": "回复[green]{Heal}[/green]点生命，并选择一张牌[gold]变化[/gold]。",
+	"OPTION_YACCHO_SPECIAL_CARE.descriptionDisabled": "[red]无法使用。[/red]",
+	"OPTION_DOLL_SIZED_GIRL_ADOPT.name": "收留",
+	"OPTION_DOLL_SIZED_GIRL_ADOPT.description": "花费[gold]{Gold}[/gold]金币，选择一张牌变化为升级过的随机[gold]伙伴牌[/gold]。",
+	"OPTION_DOLL_SIZED_GIRL_ADOPT.descriptionDisabled": "[red]需要至少80金币。[/red]",
+	"OPTION_NURTURE.name": "养育",
+	"OPTION_NURTURE.description": "花费[gold]{Gold}[/gold]金币，随机获得一个[gold]遗物[/gold]。",
+	"OPTION_NURTURE.descriptionDisabled": "[red]需要至少50金币。[/red]",
+	"OPTION_MEMORY_RECALL.name": "回忆",
+	"OPTION_MEMORY_RECALL.description": "回忆起失去的记忆。",
+	"OPTION_MEMORY_RECALL.descriptionDisabled": "[red]无可升级的记忆碎片。[/red]"
+}

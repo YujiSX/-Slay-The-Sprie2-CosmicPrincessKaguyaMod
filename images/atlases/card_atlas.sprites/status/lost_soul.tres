@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://b3lu4akc1e01b"]
+
+[ext_resource type="Texture2D" uid="uid://c4perdmtoahfi" path="res://images/packed/card_portraits/status/lost_soul.png" id="1_xy788"]
+
+[resource]
+atlas = ExtResource("1_xy788")
+region = Rect2(0, 0, 1000, 760)

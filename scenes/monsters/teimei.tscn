@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://dq3lfmmxiyrbg"]
+
+[ext_resource type="Texture2D" uid="uid://bq8nb6fuwtihb" path="res://images/packed/monster/teimei.png" id="1_47s1j"]
+
+[node name="Teimei" type="Node2D"]
+
+[node name="Visuals" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(3.75, -202)
+scale = Vector2(0.97926265, 0.94893616)
+texture = ExtResource("1_47s1j")
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -99.0
+offset_top = -458.0
+offset_right = 88.0
+offset_bottom = 4.0
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-6, -460)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-15, -241)

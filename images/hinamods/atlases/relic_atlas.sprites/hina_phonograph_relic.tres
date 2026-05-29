@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bxid1htmjie32"]
+
+[ext_resource type="Texture2D" uid="uid://b7k3u3aam2l8q" path="res://HinaMods/Images/relics/hina_phonograph_relic.png" id="1_bqoay"]
+
+[resource]
+atlas = ExtResource("1_bqoay")

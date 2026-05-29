@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://c2ughrrh7xp30"]
+
+[ext_resource type="Texture2D" uid="uid://leqs0ws27c5" path="res://images/relics/yachiyo_shirne_outline.png" id="1_dr214"]
+
+[resource]
+atlas = ExtResource("1_dr214")
+region = Rect2(0, 0, 256, 256)

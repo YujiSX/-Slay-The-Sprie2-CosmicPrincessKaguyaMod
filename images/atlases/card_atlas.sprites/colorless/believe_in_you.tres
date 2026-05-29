@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bxhqgeio4n5sl"]
+
+[ext_resource type="Texture2D" uid="uid://btbfk13a1ymht" path="res://images/packed/card_portraits/colorless/believe_in_you.png" id="1_ggjnp"]
+
+[resource]
+atlas = ExtResource("1_ggjnp")
+region = Rect2(0, 0, 1000, 760)

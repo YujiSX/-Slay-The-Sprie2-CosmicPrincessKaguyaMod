@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://e1i1jfvrhidb"]
+
+[ext_resource type="Texture2D" uid="uid://d0ujkv235kwh" path="res://images/relics/tears_of_memory.png" id="1_4vqd3"]
+
+[resource]
+atlas = ExtResource("1_4vqd3")
+region = Rect2(0, 0, 256, 256)

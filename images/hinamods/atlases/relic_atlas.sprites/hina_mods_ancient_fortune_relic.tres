@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bdhg50mrtalwl"]
+
+[ext_resource type="Texture2D" uid="uid://s7c31f45hb1t" path="res://HinaMods/Images/relics/hina_mods_ancient_fortune_relic.png" id="1_aof7w"]
+
+[resource]
+atlas = ExtResource("1_aof7w")

@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://2grnuwhwghd"]
+
+[ext_resource type="Texture2D" uid="uid://cyyp2ths2gdeh" path="res://images/relics/brothers_deposit.png" id="1_7t4b2"]
+
+[resource]
+atlas = ExtResource("1_7t4b2")
+region = Rect2(0, 0, 256, 256)

@@ -1,0 +1,164 @@
+{
+	"YACHIYO_ANCIENT.title": "Yachiyo",
+	"YACHIYO_ANCIENT.epithet": "Tsukuyomi Administrator",
+
+	"YACHIYO_ANCIENT.pages.INITIAL.description": "You step through the gate to Tsukuyomi, Yachiyo's silhouette flickering before you.",
+	"YACHIYO_ANCIENT.pages.DONE.description": "Yachiyo happily takes your hand and leads you to the true Tsukuyomi.",
+
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACHIYO_SHRINE.title": "Yachiyo Shrine",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACHIYO_SHRINE.description": "Add a [gold]Remember[/gold] to your deck.",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.TSUKUYOMI_SHRINE.title": "Tsukuyomi",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.TSUKUYOMI_SHRINE.description": "Add a [gold]Starlit Sea[/gold] to your deck.",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.KAGUYA_ACCOUNT.title": "Kaguya's Account",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.KAGUYA_ACCOUNT.description": "Add a [gold]I Love Myself![/gold] to your deck.",
+
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACHIYO_SHRINE.title": "Yachiyo Shrine",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACHIYO_SHRINE.description": "Add a [gold]Remember[/gold] to your deck.",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.TSUKUYOMI_SHRINE.title": "Tsukuyomi",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.TSUKUYOMI_SHRINE.description": "Add a [gold]Starlit Sea[/gold] to your deck.",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.KAGUYA_ACCOUNT.title": "Kaguya's Account",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.KAGUYA_ACCOUNT.description": "Add a [gold]I Love Myself![/gold] to your deck.",
+
+	"YACHIYO_ANCIENT.pages.INITIAL.options.LIVE_STREAMING.title": "Live Streaming",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.COSTUME_SYSTEM.title": "Costume System",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACCHO_SPECIAL_CARE.title": "Yachiyo's Special Care",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L1.title": "Gashapon Machine",
+
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-0.ancient": "Good evening, Yachiyos!",
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-0.next": "Continue",
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-1.char": "Yachiyo!",
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-1.next": "Continue",
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-2.ancient": "I hope you have fun in Tsukuyomi~",
+	"YACHIYO_ANCIENT.talk.ANY.0-0r.ancient": "Hey, are you setting off on another journey?",
+	
+	"KAGUYA_ANCIENT.title": "Kaguya",
+	"KAGUYA_ANCIENT.epithet": "Moon Princess",
+
+	"KAGUYA_ANCIENT.pages.INITIAL.description": "A vibrant figure steps before you.",
+	"KAGUYA_ANCIENT.pages.DONE.description": "Kaguya smiles and watches you leave, moonlight flooding the path home.",
+
+	"KAGUYA_ANCIENT.pages.INITIAL.options.HAPPY_SYNTHESIZER_RELIC.title": "Happy Synthesizer",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.HAPPY_SYNTHESIZER_RELIC.description": "Add a [gold]Happy Synthesizer[/gold] to your deck.",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.PERFORMANCE_COSTUME.title": "Performance Costume",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.PERFORMANCE_COSTUME.description": "Add a [gold]World's Number One Princess[/gold] to your deck.",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.TEARS_OF_MEMORY.title": "Tears of Memory",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.TEARS_OF_MEMORY.description": "Add an [gold]Ex-Otogibanashi[/gold] to your deck.",
+	
+	"KAGUYA_ANCIENT.pages.INITIAL.options.KAGUYA_HAMMER.title": "Kaguya's Hammer",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.GLUTTONOUS_FLYING_FISH.title": "Gluttonous Flying Fish",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.MOON_HEADDRESS.title": "Moon Headdress",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.SUN_HEADDRESS.title": "Kaguya's Petition",
+
+	"KAGUYA_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L2.title": "Gashapon Machine",
+
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-0.ancient": "KaguyaHo! Are you here to see my performance too?",
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-0.next": "Continue",
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-1.char": "Kaguya, please marry me!",
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-1.next": "Continue",
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-2.ancient": "Oh my, what shall I do? If you can beat Iro P, I might just say yes?",
+	"KAGUYA_ANCIENT.talk.ANY.0-0r.ancient": "You came to see my performance again!",
+	
+	"SAKAYORI_IROHA_ANCIENT.title": "Sakayori Iroha",
+	"SAKAYORI_IROHA_ANCIENT.epithet": "Genius Scientist",
+
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.description": "In the laboratory, Sakayori Iroha is intently adjusting some device. Sensing your arrival, she looks up, a glimmer of confusion in her eyes.",
+	"SAKAYORI_IROHA_ANCIENT.pages.DONE.description": "Iroha waves at you, then turns back to her research as the lab door slowly closes.",
+
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.PARTING_GIFT.title": "Farewell Gift",
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.IDEAL.title": "Ideal",
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.ORDINARY_HAPPINESS.title": "Ordinary Happiness",
+
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.FUSHI_DOLL.title": "Fushi Doll",
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.IROHA_IPAD.title": "Iroha's iPad",
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.IROHA_SCHEDULE.title": "Iroha's Schedule",
+
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L3.title": "Gashapon Machine",
+
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-0.ancient": "(The woman before you seems shocked by your arrival.)",
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-0.next": "...",
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-1.char": "Um... who are you...?",
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-1.next": "...",
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-2.ancient": "You might face some difficulties in the near future. I hope these can help you.",
+	"SAKAYORI_IROHA_ANCIENT.talk.ANY.0-0r.ancient": "Go and finish what you left undone.",
+	
+	"BLACK_ONYX_ANCIENT.title": "Black Onyx",
+	"BLACK_ONYX_ANCIENT.epithet": "Top Stream Trio",
+
+	"BLACK_ONYX_ANCIENT.pages.INITIAL.description": "Before you stand the top Tsukuyomi group.",
+	"BLACK_ONYX_ANCIENT.pages.DONE.description": "The trio watches you leave.",
+	
+	"BLACK_ONYX.pages.INITIAL.options.DATA_USB.title": "Data USB",
+	"BLACK_ONYX.pages.INITIAL.options.BROTHERS_DEPOSIT.title": "Brother's Savings",
+	"BLACK_ONYX.pages.INITIAL.options.NAI_BOW.title": "Nai's Bow",
+	"BLACK_ONYX.pages.INITIAL.options.LANDMINE_TRAP.title": "Landmine Trap",
+	"BLACK_ONYX.pages.INITIAL.options.LEI_BIG_SWORD.title": "Lei's Greatsword",
+	"BLACK_ONYX.pages.INITIAL.options.GASHAPON_MACHINE_L2.title": "Gashapon Machine",
+
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-0.ancient": "Good evening, my little bunnies!",
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-0.next": "Continue",
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-1.char": "......",
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-1.next": "Continue",
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-2.ancient": "Remember to support us!",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-0.ancient": "You're [blue]Sakayori Iroha[/blue], right?",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-0.next": "Continue",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-1.char": "(mechanical voice) No, I am not Sakayori Iroha. Error.",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-1.next": "Continue",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-2.ancient": "Long time no see. Want me to pat your head?",
+	"BLACK_ONYX_ANCIENT.talk.ANY.0-0r.ancient": "Don't give up.",
+	
+	"ROKA_AND_MAMI_ANCIENT.title": "Roka & Mami",
+	"ROKA_AND_MAMI_ANCIENT.epithet": "Eternal Best Friends",
+
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.description": "Roka and Mami stand side by side.",
+	"ROKA_AND_MAMI_ANCIENT.pages.DONE.description": "Roka and Mami smile and wave goodbye.",
+
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.ROKA_NAIL_ART.title": "Roka's Nail Art",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.ROKA_MAKEUP_BAG.title": "Roka's Makeup Bag",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.CHARMING_ANTLER.title": "Charming Antler",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.MAMI_GOURMET_GUIDE.title": "Mami's Gourmet Guide",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.MAMI_ONIGIRI.title": "Mami's Onigiri",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.SPOON_AND_FORK.title": "Spoon & Fork",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L3.title": "Gashapon Machine (Floor 3)",
+
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-0.ancient": "The two women before you seem surprised by your arrival.",
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-0.next": "Continue",
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-1.char": "Roka? Mami?",
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-1.next": "Continue",
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-2.ancient": "Take these with you.",
+	"ROKA_AND_MAMI_ANCIENT.talk.ANY.0-0r.ancient": "Take these with you.",
+	
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-0r.ancient": "Girl who wanders between reality and virtuality, what do you seek?",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-0r.next": "Answer",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-1r.char": "… I’m waiting for a name to be called. Until it’s called, I won’t go anywhere.",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-1r.next": "Continue",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-2r.ancient": "You’re just afraid of ‘waiting and getting it wrong’.",
+
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-0r.ancient": "You’re back. Time is like a corridor to you — you never finish it because you don’t want to.",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-0r.next": "Continue",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-1r.char": "The corridor is good. The end is not. The end means… no more waiting.",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-1r.next": "Continue",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-2r.ancient": "Foolish. If you never walk toward the end, you will always be just an echo.",
+
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-0r.ancient": "Then stand there. The tower will remember for you: you came, many times, but took nothing.",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-0r.next": "Continue",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-1r.char": "Take nothing....",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-1r.next": "Continue",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-2r.ancient": "If you truly want to save that girl, you shouldn’t stop here.",
+	"FUSHI_ANCIENT.title": "Fushi",
+	"FUSHI_ANCIENT.epithet": "Sea Slug",
+
+	"FUSHI_ANCIENT.pages.INITIAL.description": "The scent of the deep sea permeates the air, an ancient figure standing silently.",
+	"FUSHI_ANCIENT.pages.DONE.description": "Fushi's silhouette slowly fades, leaving behind a gift from the deep.",
+
+	"FUSHI_ANCIENT.pages.INITIAL.options.SEA_SLUG_MEMORY.title": "Sea Slug's Memory",
+	"FUSHI_ANCIENT.pages.INITIAL.options.SEA_SLUG_BLESSING.title": "Sea Slug's Blessing",
+	"FUSHI_ANCIENT.pages.INITIAL.options.TIMELESS_BOND.title": "Timeless Bond",
+	"FUSHI_ANCIENT.pages.INITIAL.options.SUPER_GASHAPON_MACHINE.title": "Super Gashapon Machine",
+
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-0.ancient": "She has always believed in you...",
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-0.next": "Continue",
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-1.char": "...",
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-1.next": "Continue",
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-2.ancient": "Go rewrite it all!",
+	"FUSHI_ANCIENT.talk.ANY.0-0r.ancient": "She has always believed in you..."
+}

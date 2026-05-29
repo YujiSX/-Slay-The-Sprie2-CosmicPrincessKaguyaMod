@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://b8vwrn343ahkj"]
+
+[ext_resource type="Texture2D" uid="uid://cra7xb788mkut" path="res://images/packed/card_portraits/event/melt.png" id="1_vxngb"]
+
+[resource]
+atlas = ExtResource("1_vxngb")
+region = Rect2(550, 0, 606, 852)

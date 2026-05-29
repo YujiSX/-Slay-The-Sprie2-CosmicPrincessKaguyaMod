@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bprbmhbntui5l"]
+
+[ext_resource type="Texture2D" uid="uid://d1jrwqbuxq5jr" path="res://HinaMods/Images/Potions/support_potion_outline.png" id="1_id15h"]
+
+[resource]
+atlas = ExtResource("1_id15h")

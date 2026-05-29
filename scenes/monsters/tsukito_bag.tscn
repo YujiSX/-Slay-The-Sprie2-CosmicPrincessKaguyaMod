@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://bsgrfblfcp5jw"]
+
+[ext_resource type="Texture2D" uid="uid://gmfktqvdr4eu" path="res://images/packed/monster/TsukitoBag.png" id="1_qviti"]
+
+[node name="TsukitoBag" type="Node2D"]
+
+[node name="Visuals" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-9, -186.00002)
+scale = Vector2(2.2282052, 2.0625)
+texture = ExtResource("1_qviti")
+metadata/_edit_lock_ = true
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -223.0
+offset_top = -448.0
+offset_right = 239.0
+offset_bottom = 1.0
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(1, -422)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(1, -181)

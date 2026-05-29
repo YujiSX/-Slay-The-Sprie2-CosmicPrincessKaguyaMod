@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bxbd6rate7aqe"]
+
+[ext_resource type="Texture2D" uid="uid://c2ebs570wvoat" path="res://HinaMods/Images/Powers/dragon_ride_power.png" id="1_yc0ns"]
+
+[resource]
+atlas = ExtResource("1_yc0ns")

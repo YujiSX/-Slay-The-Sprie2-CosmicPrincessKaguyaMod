@@ -1,0 +1,106 @@
+[gd_scene load_steps=10 format=3 uid="uid://1sb3yjut1s62"]
+
+[ext_resource type="Texture2D" uid="uid://bnl21wuoewea1" path="res://images/hinamods/Visual/Attack_副本11111.png" id="1_j7c5a"]
+[ext_resource type="Texture2D" uid="uid://domhthx0vtpg5" path="res://images/hinamods/Visual/Dead.png" id="1_r0eoq"]
+[ext_resource type="Texture2D" uid="uid://5sxxpi75objd" path="res://images/hinamods/Visual/Attack.png" id="1_u6p7u"]
+[ext_resource type="Texture2D" uid="uid://cyerjcq7mcenh" path="res://images/hinamods/Visual/Hit.png" id="2_r0eoq"]
+[ext_resource type="Texture2D" uid="uid://dk8v6ing8o5ia" path="res://images/hinamods/Visual/Kaguyaper_副本.png" id="2_thyj8"]
+[ext_resource type="Texture2D" uid="uid://bg1whytbp4j3f" path="res://images/hinamods/Visual2/Hit.png" id="3_j7c5a"]
+[ext_resource type="Texture2D" uid="uid://d17kgyjc8b1vr" path="res://images/hinamods/Visual/Kaguyaper_副本1111.png" id="4_frpub"]
+[ext_resource type="Texture2D" uid="uid://dqe7oe3eb1r3q" path="res://images/hinamods/Visual/Idle_1.png" id="4_glsxj"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yhpm5"]
+animations = [{
+"frames": [{
+"duration": 0.6,
+"texture": ExtResource("1_j7c5a")
+}],
+"loop": false,
+"name": &"Attack",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_thyj8")
+}],
+"loop": true,
+"name": &"Dead",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.6,
+"texture": ExtResource("3_j7c5a")
+}],
+"loop": false,
+"name": &"Hit",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_frpub")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 0.6,
+"texture": ExtResource("1_u6p7u")
+}],
+"loop": false,
+"name": &"MoonsAttack",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_r0eoq")
+}],
+"loop": true,
+"name": &"MoonsDead",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_r0eoq")
+}],
+"loop": false,
+"name": &"MoonsHit",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_glsxj")
+}],
+"loop": true,
+"name": &"MoonsIdle",
+"speed": 10.0
+}]
+
+[node name="HinaMods" type="Node2D"]
+position = Vector2(-1, -2)
+metadata/_edit_group_ = true
+
+[node name="Visuals" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(5, -197)
+scale = Vector2(0.14492181, 0.14427158)
+sprite_frames = SubResource("SpriteFrames_yhpm5")
+animation = &"MoonsIdle"
+autoplay = "Idle"
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -121.0
+offset_top = -280.0
+offset_right = 121.0
+mouse_filter = 2
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -165)
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(20, -351)

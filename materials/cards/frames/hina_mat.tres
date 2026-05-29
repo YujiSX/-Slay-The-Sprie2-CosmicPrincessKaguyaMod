@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://b0egqj7hte4ip"]
+
+[ext_resource type="Shader" uid="uid://d1bxe0qru6gcu" path="res://materials/cards/frames/hinamods.gdshader" id="1_5fp0m"]
+
+[resource]
+shader = ExtResource("1_5fp0m")

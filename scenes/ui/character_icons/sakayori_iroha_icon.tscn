@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhbsgmcg868wd"]
+
+[ext_resource type="Texture2D" uid="uid://ckck87vwe5jvf" path="res://images/ui/top_panel/character_icon_sakayori_iroha.png" id="1_y5v4u"]
+
+[node name="SakayoriIrohaIcon" type="TextureRect"]
+offset_left = 1.0
+offset_right = 63.0
+offset_bottom = 51.0
+texture = ExtResource("1_y5v4u")
+expand_mode = 1

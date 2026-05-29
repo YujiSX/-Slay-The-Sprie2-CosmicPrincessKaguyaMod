@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://wlj0hyvfquda"]
+
+[ext_resource type="Texture2D" uid="uid://b4wpx8qufmpwj" path="res://images/relics/parting_gift.png" id="1_iorbc"]
+
+[resource]
+atlas = ExtResource("1_iorbc")
+region = Rect2(0, 0, 256, 256)

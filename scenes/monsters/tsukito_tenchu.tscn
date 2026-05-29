@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://co6u3gc7f4sbm"]
+
+[ext_resource type="Texture2D" uid="uid://b33qcw6pt3kfa" path="res://images/packed/monster/TsukitoTenchu.png" id="1_on7ov"]
+
+[node name="TsukitoTenchu" type="Node2D"]
+
+[node name="Visuals" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-43.999977, -234.68752)
+scale = Vector2(2.1014493, 1.8396914)
+texture = ExtResource("1_on7ov")
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -303.0
+offset_top = -602.0
+offset_right = 117.0
+offset_bottom = 14.0
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-72, -540)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-47, -256)

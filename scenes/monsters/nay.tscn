@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqyevkwdxq1rv"]
+
+[ext_resource type="Texture2D" uid="uid://dpnelaxky53wf" path="res://images/packed/monster/nay.png" id="1_a74hf"]
+
+[node name="Nay" type="Node2D"]
+
+[node name="Visuals" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(24, -207)
+texture = ExtResource("1_a74hf")
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -86.0
+offset_top = -460.0
+offset_right = 128.0
+offset_bottom = -5.0
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(28, -451)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(22, -236)

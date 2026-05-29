@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://c2ubjblf80s6c"]
+
+[ext_resource type="Texture2D" uid="uid://dxnh31m1o772d" path="res://HinaMods/Images/Powers/tsukimi_contract_power.png" id="1_apcbo"]
+
+[resource]
+atlas = ExtResource("1_apcbo")

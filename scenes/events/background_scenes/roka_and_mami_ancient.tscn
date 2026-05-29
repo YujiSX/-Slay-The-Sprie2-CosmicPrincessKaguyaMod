@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxro6dbbhqdnu"]
+
+[ext_resource type="Texture2D" uid="uid://b00vd4vxx1kyl" path="res://images/events/roka_and_mami_ancient.png" id="1_m84b6"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -114.0
+offset_top = -122.0
+offset_right = 2041.0
+offset_bottom = 1083.0
+texture = ExtResource("1_m84b6")

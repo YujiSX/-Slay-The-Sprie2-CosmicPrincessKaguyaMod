@@ -1,0 +1,10 @@
+{
+	"KAGUYA-SMOOTHIE.title": "Smoothie",
+	"KAGUYA-SMOOTHIE.description": "Choose a card from the [gold]draw pile[/gold] and one from the [gold]discard pile[/gold] to [gold]Remember[/gold].",
+	"KAGUYA-PANCAKE.title": "Muffin",
+	"KAGUYA-PANCAKE.description": "Remove all [gold]Overwork[/gold]. Gain {RegenPower} [gold]Regeneration[/gold].",
+	"KAGUYA-SUSHI.title": "Sushi",
+	"KAGUYA-SUSHI.description": "Choose 1 of 3 random [gold]Partner[/gold] cards to add to your [gold]hand[/gold]. It costs 0 this turn.",
+	"KAGUYA-APPLE_CANDY.title": "Candy Apple",
+	"KAGUYA-APPLE_CANDY.description": "If in [gold]Tsukuyomi[/gold], enter [gold]Reality[/gold]; otherwise, enter [gold]Tsukuyomi[/gold]."
+}

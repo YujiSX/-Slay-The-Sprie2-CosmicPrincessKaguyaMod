@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://cd5qssru1fgyl"]
+
+[ext_resource type="Texture2D" uid="uid://byj4agpiysdui" path="res://HinaMods/Images/relics/hina_kaguya_smartphone_relic_outline.png" id="1_le6q0"]
+
+[resource]
+atlas = ExtResource("1_le6q0")

@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://btaswaeh45sqx"]
+
+[ext_resource type="Texture2D" uid="uid://cj82nnds3m058" path="res://images/packed/map/icons/map_marker_sakayori_iroha.png" id="1_nwrif"]
+
+[resource]
+atlas = ExtResource("1_nwrif")
+region = Rect2(0, 0, 49, 64)

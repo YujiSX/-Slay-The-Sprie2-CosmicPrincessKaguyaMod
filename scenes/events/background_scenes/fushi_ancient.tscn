@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://ieaybgj60em2"]
+
+[ext_resource type="Texture2D" uid="uid://pfjjisc0bpnj" path="res://images/events/Fushi_Ancient.png" id="1_y5ewx"]
+
+[node name="FushiAncient" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -209.0
+offset_top = -294.0
+offset_right = 2123.0
+offset_bottom = 1140.0
+texture = ExtResource("1_y5ewx")

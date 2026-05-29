@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bcu4fom8dr4mn"]
+
+[ext_resource type="Texture2D" uid="uid://c85i748rejtna" path="res://images/packed/card_portraits/kaguya/StrikeIroha.png" id="1_0art1"]
+
+[resource]
+atlas = ExtResource("1_0art1")
+region = Rect2(0, 0, 1000, 760)

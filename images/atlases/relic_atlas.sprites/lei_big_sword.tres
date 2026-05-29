@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://oyj17quqktxb"]
+
+[ext_resource type="Texture2D" uid="uid://cwaea5n2871yf" path="res://images/relics/lei_big_sword.png" id="1_tdaun"]
+
+[resource]
+atlas = ExtResource("1_tdaun")
+region = Rect2(0, 0, 256, 256)

@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://6n8gp4bkib7k"]
+
+[ext_resource type="Texture2D" uid="uid://ctnx8nbknav51" path="res://HinaMods/Scenes/cards/card_frame_attack.png" id="1_wqbkk"]
+
+[resource]
+atlas = ExtResource("1_wqbkk")

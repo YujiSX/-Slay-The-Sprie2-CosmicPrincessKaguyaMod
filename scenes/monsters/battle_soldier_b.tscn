@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://i813vheddi0r"]
+
+[ext_resource type="Texture2D" uid="uid://dow5pptduqi8s" path="res://images/packed/monster/BattleSoldierB.png" id="1_ep4a0"]
+
+[node name="BattleSoldierB" type="Node2D"]
+
+[node name="Visuals" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-9.5, -141)
+scale = Vector2(0.8466667, 0.90425533)
+texture = ExtResource("1_ep4a0")
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -68.0
+offset_top = -333.0
+offset_right = 48.0
+offset_bottom = 16.0
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-8, -338)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-6, -156)

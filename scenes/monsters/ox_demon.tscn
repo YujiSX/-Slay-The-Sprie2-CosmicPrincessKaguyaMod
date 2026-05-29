@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://chdnq837o73bo"]
+
+[ext_resource type="Texture2D" uid="uid://dxmv114yme7c6" path="res://images/packed/monster/ox_demon.png" id="1_k7f3s"]
+
+[node name="OxDemon" type="Node2D"]
+
+[node name="Visuals" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-88, -193.00002)
+scale = Vector2(0.9975845, 0.9812968)
+texture = ExtResource("1_k7f3s")
+metadata/_edit_lock_ = true
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -228.0
+offset_top = -395.0
+offset_right = 134.0
+offset_bottom = 11.0
+metadata/_edit_lock_ = true
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-17, -403)
+metadata/_edit_lock_ = true
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(4, -176)
+metadata/_edit_lock_ = true

@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://bksb24hbgaatd"]
+
+[ext_resource type="Texture2D" uid="uid://bbm6ye80crwmh" path="res://images/events/sakayori_iroha_ancient.png" id="1_utvrs"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -165.0
+offset_top = -158.0
+offset_right = 2137.0
+offset_bottom = 1183.0
+texture = ExtResource("1_utvrs")

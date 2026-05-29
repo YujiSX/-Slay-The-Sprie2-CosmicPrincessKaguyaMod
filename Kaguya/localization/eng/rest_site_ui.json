@@ -1,0 +1,14 @@
+{
+	"OPTION_YACCHO_SPECIAL_CARE.name": "Yachiyo's Special Care",
+	"OPTION_YACCHO_SPECIAL_CARE.description": "Heal [green]{Heal}[/green] HP and [gold]transform[/gold] a card.",
+	"OPTION_YACCHO_SPECIAL_CARE.descriptionDisabled": "[red]Cannot use.[/red]",
+	"OPTION_DOLL_SIZED_GIRL_ADOPT.name": "Adopt",
+	"OPTION_DOLL_SIZED_GIRL_ADOPT.description": "Pay [gold]{Gold}[/gold] Gold to [gold]transform[/gold] a card into a random upgraded [gold]Partner[/gold] card.",
+	"OPTION_DOLL_SIZED_GIRL_ADOPT.descriptionDisabled": "[red]Requires at least 80 Gold.[/red]",
+	"OPTION_NURTURE.name": "Nurture",
+	"OPTION_NURTURE.description": "Pay [gold]{Gold}[/gold] Gold to obtain a random [gold]relic[/gold].",
+	"OPTION_NURTURE.descriptionDisabled": "[red]Requires at least 50 Gold.[/red]",
+	"OPTION_MEMORY_RECALL.name": "Remember",
+	"OPTION_MEMORY_RECALL.description": "Recall lost memories.",
+	"OPTION_MEMORY_RECALL.descriptionDisabled": "[red]No memory fragments to upgrade.[/red]"
+}

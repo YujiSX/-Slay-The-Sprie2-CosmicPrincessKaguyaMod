@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bcijk48ftg6o1"]
+
+[ext_resource type="Texture2D" uid="uid://b4txdfaoypxvf" path="res://HinaMods/Images/relics/moon_headdress_relic.png" id="1_u50a0"]
+
+[resource]
+atlas = ExtResource("1_u50a0")

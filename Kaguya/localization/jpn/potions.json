@@ -1,0 +1,10 @@
+{
+	"KAGUYA-SMOOTHIE.title": "スムージー",
+	"KAGUYA-SMOOTHIE.description": "[gold]山札[/gold]と[gold]捨て札[/gold]からそれぞれカードを1枚選び、[gold]想起[/gold]する。",
+	"KAGUYA-PANCAKE.title": "マフィン",
+	"KAGUYA-PANCAKE.description": "すべての[gold]過労[/gold]を除去する。[gold]再生[/gold]{RegenPower}を得る。",
+	"KAGUYA-SUSHI.title": "寿司",
+	"KAGUYA-SUSHI.description": "ランダムな3枚の[gold]パートナー[/gold]カードから1枚選び、[gold]手札[/gold]に加える。このターン、それはコストを支払わずにプレイできる。",
+	"KAGUYA-APPLE_CANDY.title": "リンゴ飴",
+	"KAGUYA-APPLE_CANDY.description": "[gold]ツクヨミ[/gold]中の場合、[gold]現実[/gold]に移行する。そうでない場合、[gold]ツクヨミ[/gold]に移行する。"
+}

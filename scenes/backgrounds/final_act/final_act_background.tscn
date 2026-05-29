@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://ca2rgbool327p"]
+
+[ext_resource type="Script" uid="uid://x7cfgms73s1r" path="res://CustomCombatBackground.cs" id="1_fbwck"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kdrju"]
+load_path = "res://.godot/imported/glory_00.png-9cd8975d8505982b49d6deef275cc130.ctex"
+
+[node name="Control" type="TextureRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("CompressedTexture2D_kdrju")
+script = ExtResource("1_fbwck")
+
+[node name="Layer_00" type="Control" parent="."]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0

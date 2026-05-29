@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bv48omoifnuuq"]
+
+[ext_resource type="Texture2D" uid="uid://bq31whnby8gbp" path="res://images/relics/happy_synthesizer_relic.png" id="1_yptls"]
+
+[resource]
+atlas = ExtResource("1_yptls")
+region = Rect2(0, 0, 256, 256)

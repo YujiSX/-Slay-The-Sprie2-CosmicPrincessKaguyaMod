@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bnmr75d4kfll6"]
+
+[ext_resource type="Texture2D" uid="uid://bu77xta18mkov" path="res://images/packed/card_portraits/event/i_love_myself.png" id="1_lgk4x"]
+
+[resource]
+atlas = ExtResource("1_lgk4x")
+region = Rect2(0, 0, 606, 852)

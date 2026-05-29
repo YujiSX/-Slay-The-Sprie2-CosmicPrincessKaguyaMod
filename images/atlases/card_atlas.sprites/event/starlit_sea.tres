@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://5sukvn2oforb"]
+
+[ext_resource type="Texture2D" uid="uid://b4oof6wgub7qp" path="res://images/packed/card_portraits/event/starlit_sea.png" id="1_n7x1q"]
+
+[resource]
+atlas = ExtResource("1_n7x1q")
+region = Rect2(0, 0, 606, 852)

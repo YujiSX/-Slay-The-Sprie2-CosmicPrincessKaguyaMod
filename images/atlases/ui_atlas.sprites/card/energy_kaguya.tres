@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://cwtkls6jbsd7w"]
+
+[ext_resource type="Texture2D" uid="uid://bw4v6dd4wnts2" path="res://images/ui/energys/kaguya_energy_icon.png" id="1_0y12w"]
+
+[resource]
+atlas = ExtResource("1_0y12w")
+region = Rect2(0, 0, 24, 24)

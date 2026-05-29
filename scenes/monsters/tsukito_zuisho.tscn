@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://gu3vgyjquaw4"]
+
+[ext_resource type="Texture2D" uid="uid://cciaho5dr84av" path="res://images/packed/monster/tsukito_zuisho_phase1.png" id="1_ehluw"]
+
+[node name="TsukitoZuisho" type="Node2D"]
+
+[node name="Visuals" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-7.0000076, -228)
+scale = Vector2(1.4186046, 1.3773006)
+texture = ExtResource("1_ehluw")
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -266.0
+offset_top = -479.0
+offset_right = 246.0
+offset_bottom = -5.0
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-2, -589)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(5, -186)

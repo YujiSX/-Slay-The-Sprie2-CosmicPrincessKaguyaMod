@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmru8ku1w5osh"]
+
+[ext_resource type="Texture2D" uid="uid://7jiyj8avkabm" path="res://images/packed/monster/TsukitoKongo.png" id="1_phiss"]
+
+[node name="TsukitoKongo" type="Node2D"]
+
+[node name="Visuals" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(20.875008, -268.00003)
+scale = Vector2(2.5040984, 2.1292517)
+texture = ExtResource("1_phiss")
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -232.0
+offset_top = -577.0
+offset_right = 260.0
+offset_bottom = 8.0
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-31, -584)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-39, -296)

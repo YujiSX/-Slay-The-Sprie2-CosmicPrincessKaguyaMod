@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://b6yd4d6torh8f"]
+
+[ext_resource type="Texture2D" uid="uid://b011av8ie2tgw" path="res://images/packed/card_portraits/event/ExOtogibanashi.png" id="1_3fupa"]
+
+[resource]
+atlas = ExtResource("1_3fupa")
+region = Rect2(0, 0, 606, 852)

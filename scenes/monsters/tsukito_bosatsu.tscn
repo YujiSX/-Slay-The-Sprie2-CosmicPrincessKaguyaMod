@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://n31syjw1v3sk"]
+
+[ext_resource type="Texture2D" uid="uid://bs61q0wb32aru" path="res://images/packed/monster/TsukitoBosatsu.png" id="1_w100w"]
+
+[node name="TsukitoBosatsu" type="Node2D"]
+
+[node name="Visuals" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(44.75001, -270.375)
+scale = Vector2(1.6226852, 1.4814577)
+texture = ExtResource("1_w100w")
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -160.0
+offset_top = -577.0
+offset_right = 218.0
+offset_bottom = 5.0
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(11, -522)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -211)

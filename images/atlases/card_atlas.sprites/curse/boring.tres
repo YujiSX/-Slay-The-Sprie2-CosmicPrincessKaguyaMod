@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://ckku8r7epeb8i"]
+
+[ext_resource type="Texture2D" uid="uid://npdch2uwgfcl" path="res://images/packed/card_portraits/curse/boring.png" id="1_svh05"]
+
+[resource]
+atlas = ExtResource("1_svh05")
+region = Rect2(0, 0, 1000, 760)

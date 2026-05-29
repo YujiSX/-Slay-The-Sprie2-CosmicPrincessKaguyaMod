@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bqvv0svtdc6jh"]
+
+[ext_resource type="Texture2D" uid="uid://bpfcp1qv7dwst" path="res://images/packed/card_portraits/kaguya/Coax.png" id="1_rr7qe"]
+
+[resource]
+atlas = ExtResource("1_rr7qe")
+region = Rect2(0, 0, 1000, 760)

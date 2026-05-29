@@ -1,0 +1,188 @@
+{
+"YACHIYO_ANCIENT.title": "八千代",
+	"YACHIYO_ANCIENT.epithet": "月读管理员",
+
+	"YACHIYO_ANCIENT.pages.INITIAL.description": "你穿过通往月读的大门，八千代的身影若隐若现。",
+	"YACHIYO_ANCIENT.pages.DONE.description": "八千代开心的拉着你去往真正的月夜见。",
+
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACHIYO_SHRINE.title": "八千代神龛",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACHIYO_SHRINE.description": "将一张[gold]Remember[/gold]加入你的牌组。",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.TSUKUYOMI_SHRINE.title": "月夜见",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.TSUKUYOMI_SHRINE.description": "将一张[gold]星降る海[/gold]加入你的牌组。",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.KAGUYA_ACCOUNT.title": "辉夜的账号",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.KAGUYA_ACCOUNT.description": "将一张[gold]我最喜欢我自己了！[/gold]加入你的牌组。",
+
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACHIYO_SHRINE.title": "八千代神龛",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACHIYO_SHRINE.description": "将一张[gold]Remember[/gold]加入你的牌组。",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.TSUKUYOMI_SHRINE.title": "月夜见",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.TSUKUYOMI_SHRINE.description": "将一张[gold]星降る海[/gold]加入你的牌组。",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.KAGUYA_ACCOUNT.title": "辉夜的账号",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.KAGUYA_ACCOUNT.description": "将一张[gold]我最喜欢我自己了！[/gold]加入你的牌组。",
+
+	"YACHIYO_ANCIENT.pages.INITIAL.options.LIVE_STREAMING.title": "直播配信",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.COSTUME_SYSTEM.title": "换装系统",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.YACCHO_SPECIAL_CARE.title": "八千代的特殊照顾",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L1.title": "扭蛋机",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.THOUGHT_ENCHANTMENT.title": "思绪发束",
+
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-0.ancient": "八百代们，晚上好！",
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-0.next": "继续",
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-1.char": "八千代！",
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-1.next": "继续",
+	"YACHIYO_ANCIENT.talk.firstVisitEver.0-2.ancient": "希望你能在月夜见玩的开心哦~",
+	"YACHIYO_ANCIENT.talk.ANY.0-0r.ancient": "嘿，要再次踏上旅途吗？",
+	
+	"KAGUYA_ANCIENT.title": "辉夜",
+	"KAGUYA_ANCIENT.epithet": "月之公主",
+
+	"KAGUYA_ANCIENT.pages.INITIAL.description": "一道充满活力的身影来到你面前。",
+	"KAGUYA_ANCIENT.pages.DONE.description": "辉夜微笑着目送你离去，月光洒满归途。",
+
+	"KAGUYA_ANCIENT.pages.INITIAL.options.HAPPY_SYNTHESIZER_RELIC.title": "快乐合成器",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.HAPPY_SYNTHESIZER_RELIC.description": "将一张 [gold]快乐合成器[/gold] 加入你的牌组。",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.PERFORMANCE_COSTUME.title": "演出服",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.PERFORMANCE_COSTUME.description": "将一张 [gold]世界第一公主殿下[/gold] 加入你的牌组。",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.TEARS_OF_MEMORY.title": "记忆之泪",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.TEARS_OF_MEMORY.description": "将一张 [gold]Ex-Otogibanashi[/gold] 加入你的牌组。",
+	
+	"KAGUYA_ANCIENT.pages.INITIAL.options.KAGUYA_HAMMER.title": "辉夜的大锤",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.GLUTTONOUS_FLYING_FISH.title": "贪吃飞鱼",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.MOON_HEADDRESS.title": "月亮头饰",
+	"KAGUYA_ANCIENT.pages.INITIAL.options.SUN_HEADDRESS.title": "辉夜的请愿",
+
+	"KAGUYA_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L2.title": "扭蛋机",
+
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-0.ancient": "KaguyaHo！你也是来看我演出的吗？",
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-0.next": "继续",
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-1.char": "辉夜，请跟我结婚！",
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-1.next": "继续",
+	"KAGUYA_ANCIENT.talk.firstVisitEver.0-2.ancient": "哎呀，怎么办呢，你要是能打赢彩p的话我说不定会同意哦？",
+	"KAGUYA_ANCIENT.talk.ANY.0-0r.ancient": "你又来看我的演出了吗！",
+	
+	"SAKAYORI_IROHA_ANCIENT.title": "酒寄彩叶",
+	"SAKAYORI_IROHA_ANCIENT.epithet": "天才科学家",
+
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.description": "实验室中，酒寄彩叶正专注地调试着某个装置。察觉到你的到来，她抬起头，眼中反射着一丝疑惑。",
+	"SAKAYORI_IROHA_ANCIENT.pages.DONE.description": "彩叶向你挥了挥手，转身继续投入研究，实验室的门缓缓关闭。",
+
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.PARTING_GIFT.title": "临别礼物",
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.IDEAL.title": "理想",
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.ORDINARY_HAPPINESS.title": "平凡的幸福",
+
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.FUSHI_DOLL.title": "Fushi玩偶",
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.IROHA_IPAD.title": "彩叶的Ipad",
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.IROHA_SCHEDULE.title": "彩叶的日程表",
+
+	"SAKAYORI_IROHA_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L3.title": "扭蛋机",
+
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-0.ancient": "（面前的女性似乎对你的到来感到震惊）",
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-0.next": "...",
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-1.char": "那个...您是...？",
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-1.next": "...",
+	"SAKAYORI_IROHA_ANCIENT.talk.firstVisitEver.0-2.ancient": "在不久的将来你可能会遇到某些困难，希望这些能帮助你。",
+	"SAKAYORI_IROHA_ANCIENT.talk.ANY.0-0r.ancient": "去完成未尽之事吧。",
+	
+	"BLACK_ONYX_ANCIENT.title": "黑玛瑙",
+	"BLACK_ONYX_ANCIENT.epithet": "顶流三人组",
+
+	"BLACK_ONYX_ANCIENT.pages.INITIAL.description": "现在在你面前的是月读顶流组合。",
+	"BLACK_ONYX_ANCIENT.pages.DONE.description": "三人组目送你离去。",
+	
+	"BLACK_ONYX.pages.INITIAL.options.DATA_USB.title": "数据U盘",
+	"BLACK_ONYX.pages.INITIAL.options.BROTHERS_DEPOSIT.title": "老哥的存款",
+	"BLACK_ONYX.pages.INITIAL.options.NAI_BOW.title": "乃依的弓",
+	"BLACK_ONYX.pages.INITIAL.options.LANDMINE_TRAP.title": "地雷陷阱",
+	"BLACK_ONYX.pages.INITIAL.options.LEI_BIG_SWORD.title": "雷的大刀",
+	"BLACK_ONYX.pages.INITIAL.options.GASHAPON_MACHINE_L2.title": "扭蛋机",
+	"BLACK_ONYX.pages.INITIAL.options.CHALLENGE_LETTER.title": "战书",
+
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-0.ancient": "晚上好，我的小兔子们！",
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-0.next": "继续",
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-1.char": "......",
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-1.next": "继续",
+	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-2.ancient": "记得多支持我们哦！",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-0.ancient": "你是[blue]酒寄彩叶[/blue]对吧？",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-0.next": "继续",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-1.char": "（机械音）不对，我不是酒寄彩叶，错误。",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-1.next": "继续",
+	"BLACK_ONYX_ANCIENT.talk.SILENT.0-2.ancient": "好久不见了呢，要我摸摸你的头吗？",
+	"BLACK_ONYX_ANCIENT.talk.ANY.0-0r.ancient": "不要放弃。",
+	
+	"ROKA_AND_MAMI_ANCIENT.title": "芦花&真实",
+	"ROKA_AND_MAMI_ANCIENT.epithet": "永远的挚友",
+
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.description": "芦花和真实并肩而立。。",
+	"ROKA_AND_MAMI_ANCIENT.pages.DONE.description": "芦花和真实微笑着挥手告别。",
+
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.ROKA_NAIL_ART.title": "芦花的美甲",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.ROKA_MAKEUP_BAG.title": "芦花的化妆包",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.CHARMING_ANTLER.title": "魅力鹿角",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.MAMI_GOURMET_GUIDE.title": "真实的美食指南",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.MAMI_ONIGIRI.title": "真实的饭团",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.SPOON_AND_FORK.title": "勺&叉",
+	"ROKA_AND_MAMI_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L3.title": "扭蛋机（3层）",
+
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-0.ancient": "面前的两个女性似乎对你的到来感到惊讶。",
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-0.next": "继续",
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-1.char": "芦花？真实？",
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-1.next": "继续",
+	"ROKA_AND_MAMI_ANCIENT.talk.firstVisitEver.0-2.ancient": "带上这些吧。",
+	"ROKA_AND_MAMI_ANCIENT.talk.ANY.0-0r.ancient": "带上这些吧。",
+	
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-0r.ancient": "徘徊于现实和虚拟的少女，你所求何物？",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-0r.next": "回答",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-1r.char": "……我在等一个名字被念出来。念到之前，我哪儿都不去。",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-1r.next": "继续",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.0-2r.ancient": "你只是害怕“等了却等错”。",
+
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-0r.ancient": "你又回来。时间对你而言像走廊——你走不完，是因为你不想走完。",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-0r.next": "继续",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-1r.char": "走廊很好。尽头不好。尽头意味着……不用再等。",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-1r.next": "继续",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.1-2r.ancient": "愚蠢。你若不走向尽头，就永远只是回声。",
+
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-0r.ancient": "那就站着吧。塔会替你记住：你来过，很多次，却什么也没拿走。",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-0r.next": "继续",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-1r.char": "拿走什么....",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-1r.next": "继续",
+	"THE_ARCHITECT.talk.KAGUYA-SAKAYORI_IROHA.2-2r.ancient": "你要是真的想拯救那个少女，就不应该止步于此。",
+	"FUSHI_ANCIENT.title": "不死",
+	"FUSHI_ANCIENT.epithet": "海蛞蝓",
+
+	"FUSHI_ANCIENT.pages.INITIAL.description": "深海的气息弥漫，一个古老的身影静静伫立。",
+	"FUSHI_ANCIENT.pages.DONE.description": "不死的身影渐渐消散，留下深海的馈赠。",
+
+	"FUSHI_ANCIENT.pages.INITIAL.options.SEA_SLUG_MEMORY.title": "海蛞蝓的记忆",
+	"FUSHI_ANCIENT.pages.INITIAL.options.SEA_SLUG_BLESSING.title": "海蛞蝓的祝福",
+	"FUSHI_ANCIENT.pages.INITIAL.options.TIMELESS_BOND.title": "跨越时空的羁绊",
+	"FUSHI_ANCIENT.pages.INITIAL.options.SUPER_GASHAPON_MACHINE.title": "超级扭蛋机",
+
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-0.ancient": "她一直都相信着你呢...",
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-0.next": "继续",
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-1.char": "...",
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-1.next": "继续",
+	"FUSHI_ANCIENT.talk.firstVisitEver.0-2.ancient": "去改写这一切吧！",
+	"FUSHI_ANCIENT.talk.ANY.0-0r.ancient": "她一直都相信着你呢...","THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.0-0.char": "我是从月亮来的辉夜～顺着七色光柱跳来这里，正忙着找彩叶呢。",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.0-0.next": "继续",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.0-1.ancient": "月球来客，却为凡人执念踏足高塔，不守规矩。",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.0-1.next": "回答",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.0-2.char": "是彩叶的歌声引我来的！遇见她我才懂心意，我一定要找到她。",
+
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.1-0r.char": "我回来啦！这里虽怪却有趣，但我还是要去找彩叶，别拦我。",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.1-0r.next": "继续",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.1-1r.ancient": "为虚妄牵绊穿梭时空，不过是自寻迷途。",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.1-1r.next": "反驳",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.1-2r.char": "才不是迷途！彩叶是我最重要的人，为她穿梭多少次都值得。",
+
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.2-0r.char": "我懂你守着秩序，不想惹麻烦……但别拦我见彩叶。",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.2-0r.next": "继续",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.2-1r.ancient": "外来者无权违背高塔法则，你的执念终将让你消散。",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.2-1r.next": "宣战",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.2-2r.char": "我不会消散！手环里的歌声指引我回来，谁也拦不住我。",
+
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.3-0r.ancient": "[jitter]呵啊！[/jitter]\n[jitter][red]被情感困住的月之残响，可笑至极，就此消散！[/red][/jitter]",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.3-0r.next": "继续",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.3-1r.ancient": "凭任性违抗宿命与秩序，太过天真！[jitter][/jitter]",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.3-1r.next": "继续",
+  "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.3-2r.char": "这不是天真！彩叶的歌声就是我的力量，我要打破秩序回到她身边！"
+}

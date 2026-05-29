@@ -1,0 +1,53 @@
+[gd_scene load_steps=4 format=3 uid="uid://fc5x7hciyofl"]
+
+[ext_resource type="Script" uid="uid://bm6qn3y0r7wn4" path="res://Core/Nodes/RestSite/NRestSiteCharacter.cs" id="1_lu3bl"]
+[ext_resource type="Texture2D" uid="uid://den44sowxcoj1" path="res://HinaMods/Images/Visual/hinamods_rest_site.png" id="2_8qukl"]
+[ext_resource type="PackedScene" uid="uid://bgy88bk44xxvk" path="res://scenes/ui/selection_reticle.tscn" id="3_md1sv"]
+
+[node name="hinamodsRestSite" type="Node2D"]
+position = Vector2(-2, 42)
+scale = Vector2(0.760006, 0.760006)
+script = ExtResource("1_lu3bl")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -157.8935
+offset_top = -380.26016
+offset_right = 262.1065
+offset_bottom = 319.73984
+texture = ExtResource("2_8qukl")
+
+[node name="ControlRoot" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="SelectionReticle" parent="ControlRoot" instance=ExtResource("3_md1sv")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = -153.0
+offset_top = -350.0
+offset_right = 267.0
+offset_bottom = 320.0
+
+[node name="Hitbox" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_left = -155.0
+offset_top = -351.0
+offset_right = 266.0
+offset_bottom = 332.0
+
+[node name="ThoughtBubbleRight" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_left = 209.209
+offset_top = -317.103
+offset_right = 209.209
+offset_bottom = -317.103
+
+[node name="ThoughtBubbleLeft" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_left = -73.6836
+offset_top = -324.997
+offset_right = -73.6836
+offset_bottom = -324.997

@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqq45udgv2urq"]
+
+[ext_resource type="Texture2D" uid="uid://bh3awum8ux24o" path="res://images/packed/monster/KaguyaPet.png" id="1_l24pj"]
+
+[node name="KaguyaPet" type="Node2D"]
+
+[node name="Visuals" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-4, -78)
+scale = Vector2(0.36700004, 0.35500002)
+texture = ExtResource("1_l24pj")
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -59.0
+offset_top = -161.0
+offset_right = 57.0
+offset_bottom = -1.0
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(1, -169)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-6, -65)

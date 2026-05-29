@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://be4qlldljnpvr"]
+
+[ext_resource type="Texture2D" uid="uid://cifmqswulj2rn" path="res://HinaMods/Images/Powers/tsukimi_form.png" id="1_kg68r"]
+
+[resource]
+atlas = ExtResource("1_kg68r")

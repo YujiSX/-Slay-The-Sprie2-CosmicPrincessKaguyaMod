@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://b35t4yj0rcnud"]
+
+[ext_resource type="Texture2D" uid="uid://b84as7s2s72mq" path="res://images/packed/monster/ox_demon_arthropod.png" id="1_cqweo"]
+
+[node name="OxDemonArthropod" type="Node2D"]
+
+[node name="Visuals" type="Sprite2D" parent="."]
+position = Vector2(-14, -175)
+texture = ExtResource("1_cqweo")
+
+[node name="Bounds" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -227.0
+offset_top = -407.0
+offset_right = 230.0
+offset_bottom = 40.0
+metadata/_edit_lock_ = true
+
+[node name="IntentPos" type="Marker2D" parent="."]
+position = Vector2(-4, -408)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+position = Vector2(-9, -146)
+metadata/_edit_lock_ = true

@@ -1,0 +1,14 @@
+{
+	"OPTION_YACCHO_SPECIAL_CARE.name": "八千代の特別サービス",
+	"OPTION_YACCHO_SPECIAL_CARE.description": "HPを[green]{Heal}[/green]回復する、カード1枚を[gold]変化[/gold]させる。",
+	"OPTION_YACCHO_SPECIAL_CARE.descriptionDisabled": "[red]使用不可。[/red]",
+	"OPTION_DOLL_SIZED_GIRL_ADOPT.name": "引き取り",
+	"OPTION_DOLL_SIZED_GIRL_ADOPT.description": "[gold]{Gold}[/gold]ゴールドを支払い、カード1枚をアップグレード済みのランダムな[gold]パートナーカード[/gold]に[gold]変化[/gold]させる。",
+	"OPTION_DOLL_SIZED_GIRL_ADOPT.descriptionDisabled": "[red]少なくとも50ゴールドが必要。[/red]",
+	"OPTION_NURTURE.name": "育成",
+	"OPTION_NURTURE.description": "[gold]{Gold}[/gold]ゴールドを支払い、ランダムな[gold]レリック[/gold]を1つ獲得する。",
+	"OPTION_NURTURE.descriptionDisabled": "[red]少なくとも80ゴールドが必要。[/red]",
+	"OPTION_MEMORY_RECALL.name": "想起",
+	"OPTION_MEMORY_RECALL.description": "失われた記憶を思い出す。",
+	"OPTION_MEMORY_RECALL.descriptionDisabled": "[red]アップグレード可能な記憶の欠片がありません。[/red]"
+}

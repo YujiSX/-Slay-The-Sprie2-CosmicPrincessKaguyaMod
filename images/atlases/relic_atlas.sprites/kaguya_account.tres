@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://cpa63xiq63yur"]
+
+[ext_resource type="Texture2D" uid="uid://jmretdjm5kpw" path="res://images/relics/kaguya_account.png" id="1_rmyrn"]
+
+[resource]
+atlas = ExtResource("1_rmyrn")
+region = Rect2(0, 0, 256, 256)

@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://b2b5cuo1nl6p4"]
+
+[ext_resource type="Texture2D" uid="uid://br53b0jf15lmv" path="res://images/relics/performance_costume.png" id="1_876ci"]
+
+[resource]
+atlas = ExtResource("1_876ci")
+region = Rect2(0, 0, 256, 256)

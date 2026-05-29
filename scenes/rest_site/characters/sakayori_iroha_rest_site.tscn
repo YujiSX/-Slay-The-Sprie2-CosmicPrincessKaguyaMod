@@ -1,0 +1,54 @@
+[gd_scene load_steps=4 format=3 uid="uid://cl8okh5eogxeq"]
+
+[ext_resource type="Script" uid="uid://dbv46f8k62kah" path="res://CustomRestSite.cs" id="1_dj1oj"]
+[ext_resource type="Texture2D" uid="uid://sdhk67hmikfe" path="res://images/packed/char/sakayori_iroha_rest_site.png" id="2_osamu"]
+[ext_resource type="Script" uid="uid://ckft57yxl7jcb" path="res://CustomSelection.cs" id="3_osamu"]
+
+[node name="SakayoriIrohaRestSite" type="Node2D"]
+script = ExtResource("1_dj1oj")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -362.0
+offset_top = -257.0
+offset_right = 249.0
+offset_bottom = 152.0
+texture = ExtResource("2_osamu")
+
+[node name="ControlRoot" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SelectionReticle" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_left = -226.0
+offset_top = -314.0
+offset_right = 280.0
+offset_bottom = 115.0
+script = ExtResource("3_osamu")
+
+[node name="Hitbox" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_left = -199.0
+offset_top = -290.0
+offset_right = 228.0
+offset_bottom = 115.0
+
+[node name="ThoughtBubbleRight" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_left = 139.0
+offset_top = -246.0
+offset_right = 139.0
+offset_bottom = -246.0
+
+[node name="ThoughtBubbleLeft" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_left = -117.0
+offset_top = -214.0
+offset_right = -117.0
+offset_bottom = -214.0
