@@ -226,5 +226,8 @@
 	"KAGUYA-GOOD_ENDING.title": "グッドエンド",
 	"KAGUYA-GOOD_ENDING.description": "12ターン生き延びた後、[gold]勝利する[/gold]。",
 	"KAGUYA-DETERMINATION.title": "決意",
-	"KAGUYA-DETERMINATION.description": "{Energy:energyIcons()}を得て、カードを{Cards:diff()}枚引く。\n次のアタックカードのダメージを2倍にする。"
+	"KAGUYA-DETERMINATION.description": "{Energy:energyIcons()}を得て、カードを{Cards:diff()}枚引く。\n次のアタックカードのダメージを2倍にする。",
+
+	"KAGUYA-GENIUS_SCIENTIST.title": "天才科学者",
+	"KAGUYA-GENIUS_SCIENTIST.description": "[gold]過労[/gold]の上限を解除する。\nカードを4枚プレイするたびに、カードを1枚引く。"
 }

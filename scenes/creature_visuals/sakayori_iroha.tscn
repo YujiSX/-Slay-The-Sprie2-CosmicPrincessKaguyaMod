@@ -1,6 +1,6 @@
 [gd_scene load_steps=85 format=3 uid="uid://lyo34uq714ru"]
 
-[ext_resource type="Script" uid="uid://kw3m48giugjd" path="res://CustomCreatureVisuals.cs" id="1_2ywk1"]
+[ext_resource type="Script" uid="uid://dbhjdv18vgrn1" path="res://Others/CustomCreatureVisuals.cs" id="1_yaqor"]
 [ext_resource type="Texture2D" uid="uid://bx26pl0kjm6v1" path="res://scenes/creature_visuals/iroha_0001.png" id="2_yaqor"]
 [ext_resource type="Texture2D" uid="uid://bxtpsy5dnnug1" path="res://scenes/creature_visuals/iroha_0002.png" id="3_mmv11"]
 [ext_resource type="Texture2D" uid="uid://v12ucdih3aal" path="res://scenes/creature_visuals/iroha_0003.png" id="4_fyb1m"]
@@ -340,7 +340,7 @@ animations = [{
 
 [node name="SakayoriIroha" type="Node2D"]
 position = Vector2(86, 3)
-script = ExtResource("1_2ywk1")
+script = ExtResource("1_yaqor")
 
 [node name="Visuals" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true

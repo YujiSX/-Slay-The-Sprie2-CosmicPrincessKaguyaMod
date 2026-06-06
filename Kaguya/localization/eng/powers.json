@@ -229,5 +229,8 @@
 
 	"KAGUYA-STAR_NIGHT_POWER.title": "Sound-Seeking",
 	"KAGUYA-STAR_NIGHT_POWER.description": "After you play your next card, give it 1 [gold]Replay[/gold] and [gold]Ethereal[/gold].",
-	"KAGUYA-STAR_NIGHT_POWER.smartDescription": "After you play your next card, give it 1 [gold]Replay[/gold] and [gold]Ethereal[/gold]."
+	"KAGUYA-STAR_NIGHT_POWER.smartDescription": "After you play your next card, give it 1 [gold]Replay[/gold] and [gold]Ethereal[/gold].",
+
+	"KAGUYA-GENIUS_SCIENTIST_POWER.title": "Genius Scientist",
+	"KAGUYA-GENIUS_SCIENTIST_POWER.description": "Your [gold]Overwork[/gold] cap is removed.\nEvery 4 cards played, draw 1 card."
 }

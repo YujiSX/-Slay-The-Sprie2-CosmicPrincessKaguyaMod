@@ -27,7 +27,7 @@
 	"YACHIYO_CUP_EVENT.title": "Yachiyo Cup",
 	"YACHIYO_CUP_EVENT.pages.INITIAL.description": "You enter the Yachiyo Cup based on what you heard in the news. Who is your opponent?",
 	"YACHIYO_CUP_EVENT.pages.INITIAL.options.OPPONENT_KAGUYA.title": "Kaguya and Iro P",
-	"YACHIYO_CUP_EVENT.pages.INITIAL.options.OPPONENT_KAGUYA.description": "Challenge Iro P, obtain a [gold]Rare Relic[/gold]",
+	"YACHIYO_CUP_EVENT.pages.INITIAL.options.OPPONENT_KAGUYA.description": "Challenge Iro P, obtain a [gold]Rare Relic[/gold] from iroha",
 	"YACHIYO_CUP_EVENT.pages.INITIAL.options.OPPONENT_BLACK_ONYX.title": "Black Onyx",
 	"YACHIYO_CUP_EVENT.pages.INITIAL.options.OPPONENT_BLACK_ONYX.description": "Randomly challenge a member of Black Onyx and receive their reward",
 	"YACHIYO_CUP_EVENT.pages.INITIAL.options.GIVE_UP.title": "Forfeit voluntarily",

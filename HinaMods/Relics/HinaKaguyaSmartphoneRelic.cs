@@ -1,4 +1,4 @@
-using BaseLib.Utils;
+﻿using BaseLib.Utils;
 using Godot;
 using Kaguya.HinaMods.Powers;
 using MegaCrit.Sts2.Core.Combat;
@@ -23,12 +23,13 @@ namespace Kaguya.HinaMods.Relics;
 /// <summary>
 /// 辉夜的智能手机
 /// 稀有遗物
-/// 每回合中，每当你打出6张牌，立刻获得1点能量
+/// 每回合中，每当你首次打出5张牌，立即获得1点能量
 /// </summary>
 public sealed class HinaKaguyaSmartphoneRelic : HinaRelics
 {
     // 官方标准私有字段
     private int _cardsPlayedThisTurn;
+    private bool _hasTriggeredThisTurn;
 
     // ====================== 基础配置 ======================
     public override RelicRarity Rarity => RelicRarity.Uncommon;
@@ -70,10 +71,11 @@ public sealed class HinaKaguyaSmartphoneRelic : HinaRelics
             return Task.CompletedTask;
 
         CardsPlayedThisTurn = 0;
+        _hasTriggeredThisTurn = false;
         return Task.CompletedTask;
     }
 
-    // ====================== 核心逻辑：出牌计数+触发能量 ======================
+    // ====================== 核心逻辑：出牌计数 & 触发能量 ======================
     public override async Task AfterCardPlayed(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         await base.AfterCardPlayed(choiceContext, cardPlay);
@@ -85,8 +87,9 @@ public sealed class HinaKaguyaSmartphoneRelic : HinaRelics
         CardsPlayedThisTurn++;
         const int TRIGGER_COUNT = 5;
             
-        if (CardsPlayedThisTurn % TRIGGER_COUNT == 0)
+        if (CardsPlayedThisTurn >= TRIGGER_COUNT && !_hasTriggeredThisTurn)
         {
+            _hasTriggeredThisTurn = true;
             await PlayerCmd.GainEnergy(DynamicVars.Energy.IntValue, Owner);
             Flash();
         }
@@ -101,6 +104,7 @@ public sealed class HinaKaguyaSmartphoneRelic : HinaRelics
     public override Task AfterCombatEnd(CombatRoom _)
     {
         CardsPlayedThisTurn = 0;
+        _hasTriggeredThisTurn = false;
         return Task.CompletedTask;
     }
 

@@ -1,68 +1,73 @@
-using Godot;
+﻿using Godot;
 using HarmonyLib;
+using Kaguya.Utils;
+using MegaCrit.Sts2.Core.Nodes.CommonUi;
 using MegaCrit.Sts2.Core.Nodes.Screens.MainMenu;
+using System.Threading.Tasks;
 
 namespace Kaguya;
 
 [HarmonyPatch(typeof(NMainMenuBg))]
 public static class MainMenuLogoPatch
 {
-	private const string CustomLogoPath = "res://images/my_logo.png";
-	private const float LogoScale = 0.85f;
-	private const float MarginTop = 150f;
-	private const float MarginBottom = 320f;
-
-	private static TextureRect _customRect;
+	private const string CustomBgScenePath = "res://scenes/ui/menu_bg.tscn";
 
 	[HarmonyPatch(nameof(NMainMenuBg._Ready))]
 	[HarmonyPostfix]
 	static void ReadyPostfix(NMainMenuBg __instance)
 	{
-		var tex = GD.Load<Texture2D>(CustomLogoPath);
-		if (tex == null) return;
+		// 隐藏原版背景
+		var bgContainer = __instance.GetNodeOrNull<Control>("BgContainer");
+		if (bgContainer != null)
+			bgContainer.Visible = false;
 
+		// 替换为自定义场景
+		var bgScene = GD.Load<PackedScene>(CustomBgScenePath);
+		if (bgScene != null)
+		{
+			var customBg = bgScene.Instantiate<Control>();
+			customBg.Name = "KaguyaBg";
+			customBg.MouseFilter = Control.MouseFilterEnum.Ignore;
+			customBg.SetAnchorsPreset(Control.LayoutPreset.FullRect);
+			__instance.AddChild(customBg);
+			__instance.MoveChild(customBg, 0);
+		}
+
+		// 隐藏原版 Logo（不使用自定义 Logo）
 		var logo = __instance.GetNode("%Logo");
-		if (logo == null) return;
-
 		if (logo is CanvasItem canvas)
 			canvas.Visible = false;
 
-		_customRect = new TextureRect
-		{
-			Texture = tex,
-			ExpandMode = TextureRect.ExpandModeEnum.IgnoreSize,
-			StretchMode = TextureRect.StretchModeEnum.KeepAspectCentered,
-			MouseFilter = Control.MouseFilterEnum.Ignore,
-
-			Scale = new Vector2(LogoScale, LogoScale)
-		};
-		_customRect.SetAnchorsPreset(Control.LayoutPreset.FullRect);
-		_customRect.OffsetLeft = 150f;
-		_customRect.OffsetTop = MarginTop;
-		_customRect.OffsetRight = 0f;
-		_customRect.OffsetBottom = -MarginBottom;
-		_customRect.AnchorRight = 1f;
-		_customRect.AnchorBottom = 1f;
-		_customRect.GrowHorizontal = Control.GrowDirection.Both;
-		_customRect.GrowVertical = Control.GrowDirection.Both;
-		_customRect.Name = "CustomLogo";
-
-		__instance.AddChild(_customRect);
+		// Fire-and-forget update check
+		_ = CheckForUpdateAndShowPopup();
 	}
 
 	[HarmonyPatch(nameof(NMainMenuBg.HideLogo))]
 	[HarmonyPostfix]
-	static void HideLogoPostfix()
-	{
-		if (_customRect != null && GodotObject.IsInstanceValid(_customRect))
-			_customRect.Visible = false;
-	}
+	static void HideLogoPostfix() { }
 
 	[HarmonyPatch(nameof(NMainMenuBg.ShowLogo))]
 	[HarmonyPostfix]
-	static void ShowLogoPostfix()
+	static void ShowLogoPostfix() { }
+
+	private static async Task CheckForUpdateAndShowPopup()
 	{
-		if (_customRect != null && GodotObject.IsInstanceValid(_customRect))
-			_customRect.Visible = true;
+		try
+		{
+			var result = await UpdateChecker.CheckForUpdateAsync();
+			if (result.HasUpdate)
+			{
+				var popup = UpdatePopup.Create(
+					result.CurrentVersion,
+					result.LatestVersion,
+					result.ReleaseUrl);
+				if (popup != null)
+				{
+					NModalContainer.Instance?.ShowBackstop();
+					NModalContainer.Instance?.AddChild(popup);
+				}
+			}
+		}
+		catch { }
 	}
 }

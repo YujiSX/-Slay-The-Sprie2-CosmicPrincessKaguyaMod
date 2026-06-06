@@ -27,7 +27,7 @@
 	"YACHIYO_CUP_EVENT.title": "八千代杯",
 	"YACHIYO_CUP_EVENT.pages.INITIAL.description": "你根据从新闻打听到的消息参加了八千代杯，你的对手是？",
 	"YACHIYO_CUP_EVENT.pages.INITIAL.options.OPPONENT_KAGUYA.title": "辉夜和彩p",
-	"YACHIYO_CUP_EVENT.pages.INITIAL.options.OPPONENT_KAGUYA.description": "挑战彩p，获得一个[gold]稀有遗物[/gold]",
+	"YACHIYO_CUP_EVENT.pages.INITIAL.options.OPPONENT_KAGUYA.description": "挑战彩p，获得一个来自[blue]彩叶[/blue]的[gold]稀有遗物[/gold]",
 	"YACHIYO_CUP_EVENT.pages.INITIAL.options.OPPONENT_BLACK_ONYX.title": "黑玛瑙",
 	"YACHIYO_CUP_EVENT.pages.INITIAL.options.OPPONENT_BLACK_ONYX.description": "随机挑战黑玛瑙成员，获得他们的奖励",
 	"YACHIYO_CUP_EVENT.pages.INITIAL.options.GIVE_UP.title": "自愿放弃",

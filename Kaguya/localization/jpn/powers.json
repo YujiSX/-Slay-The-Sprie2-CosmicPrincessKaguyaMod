@@ -132,5 +132,8 @@
 	"KAGUYA-DETERMINATION_POWER.title": "決意",
 	"KAGUYA-DETERMINATION_POWER.description": "あなたの次のアタックカードは2倍のダメージを与える。",
 	"KAGUYA-TURN_COUNTER_POWER.title": "終焉の時計",
-	"KAGUYA-TURN_COUNTER_POWER.description": "時計が[red]7[/red]に達した時、あなたの生命を終了させ、すべての[gold]能力[/gold]をリセットする。\n月人の配下を倒せば、それを遅らせられるかもしれない？"
+	"KAGUYA-TURN_COUNTER_POWER.description": "時計が[red]7[/red]に達した時、あなたの生命を終了させ、すべての[gold]能力[/gold]をリセットする。\n月人の配下を倒せば、それを遅らせられるかもしれない？",
+
+	"KAGUYA-GENIUS_SCIENTIST_POWER.title": "天才科学者",
+	"KAGUYA-GENIUS_SCIENTIST_POWER.description": "[gold]過労[/gold]の上限が解除されている。\nカードを4枚プレイするたびに、カードを1枚引く。"
 }

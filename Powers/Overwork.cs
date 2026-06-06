@@ -22,6 +22,10 @@ namespace Kaguya.Powers
             if (power != this) return;
             if (Amount < 6) return;
 
+            // 拥有天才科学家能力时，过劳无上限，不清除层数，不结束回合
+            if (Owner?.GetPower<GeniusScientistPower>() != null)
+                return;
+
             int remaining = (int)Amount - 6;
             if (remaining <= 0)
             {

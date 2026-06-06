@@ -1,7 +1,8 @@
-using BaseLib.Abstracts;
+﻿using BaseLib.Abstracts;
 using BaseLib.Utils.NodeFactories;
 using Godot;
 using Kaguya.Powers;
+using Kaguya.RelicPools;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Ascension;
 using MegaCrit.Sts2.Core.Entities.Creatures;
@@ -94,19 +95,18 @@ namespace Kaguya.Monsters
             await PowerCmd.Apply<StrengthPower>(choiceContext, Creature, 1, Creature, null);
         }
 
-        // 死亡时给予稀有遗物
+        // 死亡时从KaguyaRelicPool中给予稀有遗物
         public override async Task AfterDeath(PlayerChoiceContext choiceContext, Creature creature, bool wasRemovalPrevented, float deathAnimLength)
         {
             await base.AfterDeath(choiceContext, creature, wasRemovalPrevented, deathAnimLength);
             if (creature != Creature) return;
 
-            // 获取所有存活的玩家
             var players = Creature.CombatState?.Players.Where(p => p.Creature.IsAlive).ToList();
             if (players == null || players.Count == 0) return;
 
-            // 获取所有稀有遗物（全局一次，避免重复计算）
+            var kaguyaPool = ModelDb.RelicPool<KaguyaRelicPool>();
             var allRelics = ModelDb.AllRelics
-                .Where(r => r.Rarity == RelicRarity.Rare && r.IsAllowed(players.First().RunState))
+                .Where(r => r.Rarity == RelicRarity.Rare && kaguyaPool.AllRelicIds.Contains(r.Id) && r.IsAllowed(players.First().RunState))
                 .ToList();
             if (allRelics.Count == 0) return;
 
@@ -118,4 +118,4 @@ namespace Kaguya.Monsters
             }
         }
     }
-  }
+}

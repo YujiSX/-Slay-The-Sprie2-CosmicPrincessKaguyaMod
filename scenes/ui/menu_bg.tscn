@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqsingjs0bw5y"]
+
+[ext_resource type="VideoStream" uid="uid://ch5ogsbxxstwj" path="res://videoes/menu.ogv" id="1_p02t1"]
+
+[node name="MenuBg" type="VideoStreamPlayer"]
+clip_contents = true
+anchors_preset = -1
+anchor_left = -1.365
+anchor_top = 0.042000003
+anchor_right = 1.9690001
+anchor_bottom = 2.782
+offset_left = 928.48
+offset_top = 364.78403
+offset_right = 927.7119
+offset_bottom = 365.26392
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.51558656, 0.6156867)
+stream = ExtResource("1_p02t1")
+autoplay = true
+loop = true

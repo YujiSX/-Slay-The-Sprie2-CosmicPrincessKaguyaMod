@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://fc5x7hciyofl"]
 
-[ext_resource type="Script" uid="uid://dbv46f8k62kah" path="res://CustomRestSite.cs" id="1_wbx55"]
+[ext_resource type="Script" uid="uid://dk3vusxqr0nph" path="res://Others/CustomRestSite.cs" id="1_wbx55"]
 [ext_resource type="Texture2D" uid="uid://den44sowxcoj1" path="res://images/hinamods/Visual/hinamods_rest_site.png" id="2_8qukl"]
 
 [node name="hinamodsRestSite" type="Node2D"]

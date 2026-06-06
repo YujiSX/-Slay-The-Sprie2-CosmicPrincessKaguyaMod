@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b0dp0fmhawjwy"]
 
-[ext_resource type="Script" uid="uid://d4dr3l61d87a7" path="res://CustomMerchantCharacter.cs" id="1_eqt6d"]
+[ext_resource type="Script" uid="uid://bwgf3l3jisubs" path="res://Others/CustomMerchantCharacter.cs" id="1_eqt6d"]
 [ext_resource type="Texture2D" uid="uid://1jrrc6epau8r" path="res://images/packed/char/sakayori_iroha_combat.png" id="2_smmfs"]
 
 [node name="SakayoriIrohaMerchant" type="Node2D"]

@@ -21,10 +21,22 @@ namespace Kaguya.Monsters
         private const string BiteSfx = "event:/sfx/enemy/enemy_attacks/test_subject/test_subject_bite";
         private const string SlashSfx = "event:/sfx/enemy/enemy_attacks/test_subject/test_subject_slash";
 
-        public override int MinInitialHp => AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 85, 80);
-        public override int MaxInitialHp => AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 90, 85);
+        public override int MinInitialHp => AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 80, 75);
+        public override int MaxInitialHp => AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 80, 75);
 
-        private int EnrageAmount => AscensionHelper.GetValueIfAscension(AscensionLevel.DeadlyEnemies, 3, 2);
+        private int EnrageAmount
+    {
+        get
+        {
+            int playerCount = Creature?.CombatState?.Players?.Count ?? 1;
+            return playerCount switch
+            {
+                1 => AscensionHelper.GetValueIfAscension(AscensionLevel.DeadlyEnemies, 3, 2),
+                2 => 2,
+                _ => 1,
+            };
+        }
+    }
         private int SkullBashDamage => AscensionHelper.GetValueIfAscension(AscensionLevel.DeadlyEnemies, 8, 6);
         private const int VulnerableAmount = 2;
         private int ChargeDamage => AscensionHelper.GetValueIfAscension(AscensionLevel.DeadlyEnemies, 14, 11);
@@ -66,7 +78,7 @@ namespace Kaguya.Monsters
                 .WithAttackerFx(null, BiteSfx)
                 .WithHitFx("vfx/vfx_attack_blunt")
                 .Execute(null);
-            // 对所有玩家施加易伤
+            // 瀵规墍鏈夌帺瀹舵柦鍔犳槗�?
             var choiceContext = new ThrowingPlayerChoiceContext();
             await PowerCmd.Apply<VulnerablePower>(choiceContext, targets, VulnerableAmount, Creature, null);
         }

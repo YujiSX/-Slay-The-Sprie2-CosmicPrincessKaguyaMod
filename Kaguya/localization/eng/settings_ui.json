@@ -1,0 +1,6 @@
+{
+	"KAGUYA-UPDATE_POPUP.title": "Update Available!",
+	"KAGUYA-UPDATE_POPUP.body": "Current: {0}\nLatest: {1}\nVisit GitHub to download the latest version.",
+	"KAGUYA-UPDATE_POPUP.download": "Download",
+	"KAGUYA-UPDATE_POPUP.close": "Later"
+}

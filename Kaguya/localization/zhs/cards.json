@@ -388,7 +388,7 @@
 	"KAGUYA-SINGER_MOON_STRIKE.title": "注视",
 	"KAGUYA-SINGER_MOON_STRIKE.description": "每当你获得或消耗[gold]月夜[/gold]时，对所有敌人造成{SingerMoonAoEPower:diff()}点伤害。",
 	"KAGUYA-SUPPORT_ASSEMBLE.title": "星河入梦",
-	"KAGUYA-SUPPORT_ASSEMBLE.description": "将你所有的{IfUpgraded:show:[gold]升级过[/gold]的|}[blue]支援[/blue]牌加入[gold]抽牌堆[/gold]，其在本场战斗可被免费打出。",
+	"KAGUYA-SUPPORT_ASSEMBLE.description": "将[gold]辉夜[/gold]的所有[blue]支援[/blue]牌中的各一张{IfUpgraded:show:[gold]升级过[/gold]的|}加入[gold]抽牌堆[/gold]，其在本场战斗可被免费打出。",
 	"KAGUYA-FINAL_PERFORMANCE.title": "三色流光",
 	"KAGUYA-FINAL_PERFORMANCE.description": "打出你[gold]消耗堆[/gold]中所有[purple]歌声[/purple]牌。",
 	"KAGUYA-SINGER_MOON_FINALE.title": "蓦然回首",
@@ -467,5 +467,8 @@
 	"KAGUYA-EXPECTATION.description": "抽到这张牌时，抽1张牌，获得3层[gold]月夜[/gold]。",
 
 	"KAGUYA-VIGOR_BURST.title": "演奏",
-	"KAGUYA-VIGOR_BURST.description": "获得5层[gold]活力[/gold]。\n你的下一张攻击牌不消耗[gold]活力[/gold]。"
+	"KAGUYA-VIGOR_BURST.description": "获得5层[gold]活力[/gold]。\n你的下一张攻击牌不消耗[gold]活力[/gold]。",
+
+	"KAGUYA-GENIUS_SCIENTIST.title": "天才科学家",
+	"KAGUYA-GENIUS_SCIENTIST.description": "移除你的[gold]过劳[/gold]上限。\n你每打出4张牌，抽1张牌。"
 }

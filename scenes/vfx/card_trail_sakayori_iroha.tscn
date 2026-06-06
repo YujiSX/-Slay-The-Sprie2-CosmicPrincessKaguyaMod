@@ -1,9 +1,9 @@
 [gd_scene load_steps=15 format=3 uid="uid://e2wkafhw3rsv"]
 
-[ext_resource type="Script" uid="uid://oylmox5d6dx0" path="res://CustomCardTrailVfx.cs" id="1_8ievt"]
+[ext_resource type="Script" uid="uid://baxte0a5y4c6o" path="res://Others/CustomCardTrail.cs" id="1_8ievt"]
 [ext_resource type="Texture2D" uid="uid://bx33gd274h5xu" path="res://images/packed/vfx/trail.png" id="2_360vg"]
 [ext_resource type="Texture2D" uid="uid://6l8sb81oo74g" path="res://images/packed/vfx/trail2.png" id="4_2sraa"]
-[ext_resource type="Script" uid="uid://ybp8gefry2nn" path="res://CustomCardTrail.cs" id="4_nypq6"]
+[ext_resource type="Script" uid="uid://y2ubbq3x04vh" path="res://Others/CustomCardTrailVfx.cs" id="4_nypq6"]
 [ext_resource type="Texture2D" uid="uid://cg48hr205ykub" path="res://images/vfx/brush_particle_2.png" id="5_h5m5l"]
 [ext_resource type="Texture2D" uid="uid://cuwtykwyqwqro" path="res://images/vfx/vfx_ghostly_power_up/sparkle.png" id="6_w5ewp"]
 [ext_resource type="Texture2D" uid="uid://xnkyqi1jbyqw" path="res://images/packed/vfx/small_card_silhouette.png" id="7_myqnw"]
@@ -34,7 +34,7 @@ colors = PackedColorArray(1, 0.976442, 0.851033, 1, 0.877928, 0.851622, 3.85046e
 
 [node name="CardTrailSakayoriIroha" type="Node2D"]
 show_behind_parent = true
-script = ExtResource("1_8ievt")
+script = ExtResource("4_nypq6")
 
 [node name="Trails" type="Node2D" parent="."]
 
@@ -48,7 +48,7 @@ gradient = SubResource("Gradient_6eyfw")
 texture = ExtResource("2_360vg")
 texture_mode = 2
 joint_mode = 2
-script = ExtResource("4_nypq6")
+script = ExtResource("1_8ievt")
 
 [node name="InnerTrail" type="Line2D" parent="Trails"]
 modulate = Color(0.95975, 0.668365, 0.606022, 0.501961)
@@ -59,7 +59,7 @@ gradient = SubResource("Gradient_fdg7u")
 texture = ExtResource("4_2sraa")
 texture_mode = 2
 joint_mode = 2
-script = ExtResource("4_nypq6")
+script = ExtResource("1_8ievt")
 
 [node name="Sprites" type="Node2D" parent="."]
 

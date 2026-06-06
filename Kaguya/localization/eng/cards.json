@@ -453,5 +453,8 @@
 	"KAGUYA-EXPECTATION.title": "Expectation",
 	"KAGUYA-EXPECTATION.description": "When drawn, draw 1 card and gain 3 [gold]Moonlight[/gold].",
 	"KAGUYA-VIGOR_BURST.title": "Performance",
-	"KAGUYA-VIGOR_BURST.description": "Gain 5 [gold]Vigor[/gold].\nYour next Attack does not consume [gold]Vigor[/gold]."
+	"KAGUYA-VIGOR_BURST.description": "Gain 5 [gold]Vigor[/gold].\nYour next Attack does not consume [gold]Vigor[/gold].",
+
+	"KAGUYA-GENIUS_SCIENTIST.title": "Genius Scientist",
+	"KAGUYA-GENIUS_SCIENTIST.description": "Remove your [gold]Overwork[/gold] cap. \nEvery 4 cards you play, draw 1 card."
 }
