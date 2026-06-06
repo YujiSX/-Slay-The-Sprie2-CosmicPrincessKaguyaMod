@@ -1,6 +1,5 @@
 ﻿# Godot 4+ specific ignores
 .godot/
-/android/
 
 # Build output
 build/
@@ -8,7 +7,7 @@ build/
 # Godot-generated UID files for C# scripts
 *.uid
 
-# Godot import cache (Godot 3.x)
+# Godot import cache
 .import/
 
 # Export credentials (sensitive)
@@ -19,5 +18,18 @@ export_credentials.cfg
 Thumbs.db
 *.tmp
 
-# Visual Studio cache
+# IDE / Editor
 .vs/
+.vscode/
+*.user
+*.suo
+*.DotSettings.user
+
+# Temporary / scratch files
+_*
+
+# Debug audio files (not for distribution)
+debug_audio/
+
+# NuGet packages
+*.nupkg
