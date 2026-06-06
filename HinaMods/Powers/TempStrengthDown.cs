@@ -20,4 +20,5 @@ public sealed class TempStrengthDown : TemporaryStrengthPower
     public override AbstractModel OriginModel => ModelDb.Card<HinaModsMoonLeverage>();
 
     protected override bool IsPositive => false;
+
 }

@@ -1,0 +1,86 @@
+æ·»å æ°éç©
+									
+
+							
+							
+							
+								2026å¹´05æ04æ¥
+								
+									287 å­
+								
+								å¤§æ¦ 1 åé
+								
+								
+								Reme
+								
+							
+							
+							åæ·»å å¡çç±»ä¼¼ãåæ°å»ºä¸ä¸ªç±»ã
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+// æ³¨åéç©ãå¦æè¦åèªå®ä¹æ± çæ·»å äººç©çå¼å¤´
+[Pool(typeof(SharedRelicPool))]
+public class TestRelic : CustomRelicModel
+{
+    // ç¨æåº¦
+    public override RelicRarity Rarity => RelicRarity.Common;
+
+    // éç©çæ°å¼ãæ¿æ¢æ¬å°åä¸­ç{Cards}ã
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(1)];
+
+    // å°å¾æ ï¼åç85x85ï¼
+    public override string PackedIconPath => $"res://test/images/relics/{Id.Entry.ToLowerInvariant()}.png";
+    // è½®å»å¾æ ï¼åç85x85ï¼
+    protected override string PackedIconOutlinePath => $"res://test/images/relics/{Id.Entry.ToLowerInvariant()}.png";
+    // å¤§å¾æ ï¼åç256x256ï¼
+    protected override string BigIconPath => $"res://test/images/relics/{Id.Entry.ToLowerInvariant()}.png";
+
+    public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
+    {
+        // è¿éçDynamicVars.Cards.IntValueä¸ºä¸é¢è®¾ç½®çCardsVarçæ°å¼ã
+        await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.IntValue, player);
+    }
+
+    // åå§éç©çåçº§å¯ä»¥åè¿é
+    // public override RelicModel? GetUpgradeReplacement() => ModelDb.Relic<Circlet>().ToMutable();
+}
+
+ç¶åæ¾ä¸å¼ å¾çtest/images/relics/test_relic.pngãè·¯å¾ä¸ä¸å®æ¯testï¼ç»ç»é£æ ¼èªå®ä¹ï¼åèä¸é¢å¡å¾é¨åãè¿éå·æä¸å¼ å¾çç¨äºä¸æ ·çï¼å¯ä»¥èªå·±ä¿®æ¹ã
+
+ç¶ååä¸ä¸ªæ¬å°åæä»¶ï¼{modId}/localization/{Language}/relics.jsonã
+
+1
+2
+3
+4
+5
+{
+  "TEST-TEST_RELIC.title": "æµè¯éç©",
+  "TEST-TEST_RELIC.description": "æ¯ååå¼å§æ¶ï¼æ½[blue]{Cards}[/blue]å¼ çã",
+  "TEST-TEST_RELIC.flavor": "è§å¾å¾ç¼çï¼"
+}

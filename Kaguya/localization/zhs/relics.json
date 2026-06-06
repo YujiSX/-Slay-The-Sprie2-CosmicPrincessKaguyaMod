@@ -187,5 +187,29 @@
   "KAGUYA-STAR_GLASSES_RELIC.flavor": "[purple]辉夜演出时佩戴的眼镜...[/purple]",
 
   "SEA_GLASS.KAGUYA-HINA_CHARACTER.title": "兔子玻璃",
-"SEA_GLASS.KAGUYA-SAKAYORI_IROHA.title": "狐狸玻璃"
+"SEA_GLASS.KAGUYA-SAKAYORI_IROHA.title": "狐狸玻璃",
+
+	"KAGUYA-SCHOOL_UNIFORM.title": "校服",
+	"KAGUYA-SCHOOL_UNIFORM.description": "你的回合结束时，若你处于[gold]现实[/gold]，抽1张牌。",
+	"KAGUYA-SCHOOL_UNIFORM.flavor": "仓川高中的标准制服，模范学生的代表。",
+
+	"KAGUYA-ELECTRONIC_KEYBOARD.title": "电子琴",
+	"KAGUYA-ELECTRONIC_KEYBOARD.description": "你每场战斗第一次打出每种类型的卡牌时，获得1层[gold]创作[/gold]。",
+	"KAGUYA-ELECTRONIC_KEYBOARD.flavor": "指尖流淌的旋律，终将汇聚成独一无二的乐章。",
+
+	"KAGUYA-WORK_CLOTHES.title": "工作服",
+	"KAGUYA-WORK_CLOTHES.description": "你的回合结束时，若你处于[gold]现实[/gold]，获得等同于你[gold]过劳[/gold]层数点格挡。",
+	"KAGUYA-WORK_CLOTHES.flavor": "“那家伙真是拼命呢...”",
+
+	"KAGUYA-FLAT_SHEATH_CHARM.title": "扁面鞘挂件",
+	"KAGUYA-FLAT_SHEATH_CHARM.description": "你每场战斗前4次抽到状态牌时，将其[gold]消耗[/gold]并抽1张牌。",
+	"KAGUYA-FLAT_SHEATH_CHARM.flavor": "八千代，你在哪...",
+
+	"KAGUYA-ROYAL_TWIN_BLADES.title": "皇金双剑蛮颚",
+	"KAGUYA-ROYAL_TWIN_BLADES.description": "每场战斗中，你第一次打出攻击牌时给予所有敌人1层[gold]虚弱[/gold]，第一次打出技能牌时给予所有敌人1层[gold]易伤[/gold]，第一次打出能力牌时抽2张牌。",
+	"KAGUYA-ROYAL_TWIN_BLADES.flavor": "你以为到现在我还不懂你的想法吗...",
+
+	"KAGUYA-TECH_CONTACT_LENS.title": "科技美瞳",
+	"KAGUYA-TECH_CONTACT_LENS.description": "战斗开始时，进入[gold]月读[/gold]。",
+	"KAGUYA-TECH_CONTACT_LENS.flavor": "欢迎来到月读！"
 }

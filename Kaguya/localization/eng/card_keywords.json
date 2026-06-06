@@ -21,6 +21,18 @@
 	"KAGUYA-NURTURE.title": "Nurture",
 	"KAGUYA-ELEMENT.description": "Add an element based on the last card played:\nAttack: Apply 1 [gold]Weak[/gold]\nSkill: Apply 1 [gold]Vulnerable[/gold]\nOther: Apply 7 [gold]Poison[/gold]",
 	"KAGUYA-ELEMENT.title": "Element Switch",
-	"KAGUYA-MEMORYOPTION.description": "Recall lost memories.\nDefeating [gold]Tsukito[/gold] might help you remember past experiences?",
-	"KAGUYA-MEMORYOPTION.title": "Remember"
+	"KAGUYA-MEMORYOPTION.description": "Recall lost memories.\nDefeating [gold]Tsukito[/gold] might help you remember past experiences?\n[gold]When you gather your thoughts, the ending shall be rewritten.[/gold]",
+	"KAGUYA-MEMORYOPTION.title": "Remember",
+	"SINGER.title": "Song",
+	"SINGER.description": "When played, this card goes into the [gold]exhaust pile[/gold]. At the end of the turn, it returns to the [gold]draw pile[/gold].",
+	"SUPPORT.title": "Support",
+	"SUPPORT.description": "After playing, reduce the cost of the next card of the corresponding type (Attack/Skill) by 1 this turn.",
+	"MOONVIEW.title": "Moon View",
+	"MOONVIEW.description": "Can only be played by consuming corresponding Moon Sights.",
+	"MOONLIGHT.title": "Moonlight",
+	"MOONLIGHT.description": "Channel the power of Kaguya, consume Moon View, and accumulate Moonlight stacks.",
+	"SUPPORTCARD.title": "Support Card",
+	"SUPPORTCARD.description": "After playing, reduce the cost of the next card of the corresponding type (Attack/Skill) by 1 this turn.",
+	"SINGERCARD.title": "Song Card",
+	"SINGERCARD.description": "Song cards played this turn go into the exhaust pile and return to the draw pile at the end of the turn."
 }

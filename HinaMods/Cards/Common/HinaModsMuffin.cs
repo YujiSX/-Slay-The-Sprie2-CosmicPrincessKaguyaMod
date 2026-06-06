@@ -1,4 +1,4 @@
-using BaseLib.Utils;
+﻿using BaseLib.Utils;
 using Godot;
 using Kaguya.HinaMods.Powers;
 using MegaCrit.Sts2.Core.Commands;
@@ -18,8 +18,8 @@ namespace Kaguya.HinaMods.Cards;
 /// <summary>
 /// 松饼
 /// 1费 技能牌 | 自身目标
-/// 获得3层月夜，治疗3点生命。消耗。
-/// 升级：月夜变为4层，治疗变为4点。
+/// 获得4层月夜，治疗4点生命。消耗。
+/// 升级：费用变为0。
 /// </summary>
 public sealed class HinaModsMuffin : HinaModsCard
 {
@@ -27,8 +27,8 @@ public sealed class HinaModsMuffin : HinaModsCard
 
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
     {
-        new PowerVar<FortunePower>(3m),
-        new HealVar(3m)
+        new PowerVar<FortunePower>(4m),
+        new HealVar(4m)
     };
 
     protected override IEnumerable<IHoverTip> GetCustomHoverTips()
@@ -40,12 +40,11 @@ public sealed class HinaModsMuffin : HinaModsCard
     }
 
     public HinaModsMuffin()
-        : base(1, CardType.Skill, CardRarity.Common, TargetType.Self)
+        : base(1, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
     { }
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        // 修复：添加 choiceContext 参数
         await PowerCmd.Apply<FortunePower>(
             choiceContext,
             base.Owner.Creature,
@@ -59,7 +58,6 @@ public sealed class HinaModsMuffin : HinaModsCard
 
     protected override void OnUpgrade()
     {
-        base.DynamicVars["FortunePower"].UpgradeValueBy(1m);
-        base.DynamicVars.Heal.UpgradeValueBy(1m);
+        EnergyCost.UpgradeBy(-1);
     }
 }

@@ -139,7 +139,7 @@ namespace Kaguya.Monsters
             // 添加锣鼓噪声能力（一开场就有）
             await PowerCmd.Apply<GongNoisePower>(ctx, Creature, 1, Creature, null);
             // 添加其他预设能力
-            await PowerCmd.Apply<UnbreakablePower>(ctx, Creature, 180, Creature, null);
+            await PowerCmd.Apply<UnbreakablePower>(ctx, Creature, 250, Creature, null);
             await PowerCmd.Apply<HighDimensionalBeingPower>(ctx, Creature, 10, Creature, null);
         }
     }

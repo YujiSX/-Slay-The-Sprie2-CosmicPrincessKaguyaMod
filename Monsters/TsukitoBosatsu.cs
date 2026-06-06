@@ -1,4 +1,4 @@
-using BaseLib.Abstracts;
+﻿using BaseLib.Abstracts;
 using BaseLib.Utils.NodeFactories;
 using Godot;
 using Kaguya;
@@ -150,6 +150,13 @@ namespace Kaguya.Monsters
         {
             await base.AfterAddedToRoom();
 
+            var stream = PreloadManager.Cache.GetAsset<AudioStream>("res://audio/Shun.mp3");
+            if (stream is AudioStreamMP3 mp3)
+                mp3.Loop = true;
+            _musicHandle = NDebugAudioManager.Instance.Play("Shun.mp3");
+
+            await VideoPlayerHelper.PlayFullscreenVideo("res://videoes/BosatsuStart.ogv");
+
             int playerCount = Creature.CombatState?.Players.Count(p => p.Creature.IsAlive) ?? 1;
             int scaledHp = PHASE1_MAX_HP * playerCount;
             await CreatureCmd.SetMaxAndCurrentHp(Creature, scaledHp);
@@ -185,10 +192,6 @@ namespace Kaguya.Monsters
             // 重置回合计数为 1 层，重新开始计数
             _turnCounterPower = await PowerCmd.Apply<TurnCounterPower>(ctx, Creature, 1, Creature, null) as TurnCounterPower;
 
-            var stream = PreloadManager.Cache.GetAsset<AudioStream>("res://audio/Shun.mp3");
-            if (stream is AudioStreamMP3 mp3)
-                mp3.Loop = true;
-            _musicHandle = NDebugAudioManager.Instance.Play("Shun.mp3");
         }
 
         public async Task TriggerRevive()

@@ -13,5 +13,20 @@
   "KAGUYA-SAKAYORI_IROHA.pronounSubject": "she",
   "KAGUYA-SAKAYORI_IROHA.title": "Sakayori Iroha",
   "KAGUYA-SAKAYORI_IROHA.titleObject": "Sakayori Iroha",
-  "KAGUYA-SAKAYORI_IROHA.unlockText": "Unlock this character."
+  "KAGUYA-SAKAYORI_IROHA.unlockText": "Unlock this character.",
+
+  "KAGUYA-HINA_CHARACTER.title": "Kaguya",
+  "KAGUYA-HINA_CHARACTER.titleObject": "Kaguya",
+  "KAGUYA-HINA_CHARACTER.description": "A curious maiden who came from the moon, appearing from a seven-colored gaming console pole. Cheerful and fond of acting spoiled, sometimes a little willful. After meeting Iroha, she came to understand human emotions, love, and resistance. She once returned to the moon, but Iroha's singing made her resolve to come back to Earth.",
+  "KAGUYA-HINA_CHARACTER.pronounObject": "her",
+  "KAGUYA-HINA_CHARACTER.possessiveAdjective": "Her",
+  "KAGUYA-HINA_CHARACTER.pronounPossessive": "hers",
+  "KAGUYA-HINA_CHARACTER.pronounSubject": "she",
+  "KAGUYA-HINA_CHARACTER.cardsModifierTitle": "Kaguya Cards",
+  "KAGUYA-HINA_CHARACTER.cardsModifierDescription": "Kaguya's cards will now appear in rewards and shops.",
+  "KAGUYA-HINA_CHARACTER.aromaPrinciple": "[gold]Kaguya[/gold]",
+  "KAGUYA-HINA_CHARACTER.eventDeathPrevention": "Iroha...",
+  "KAGUYA-HINA_CHARACTER.banter.alive.endTurnPing": "Kaguya says hurry up...",
+  "KAGUYA-HINA_CHARACTER.banter.dead.endTurnPing": "Iroha... I want to go home...",
+  "KAGUYA-HINA_CHARACTER.goldMonologue": "[sine]Gold coins...[/sine]..."
 }

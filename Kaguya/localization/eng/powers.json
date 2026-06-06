@@ -132,5 +132,102 @@
 	"KAGUYA-DETERMINATION_POWER.title": "Determination",
 	"KAGUYA-DETERMINATION_POWER.description": "Your next Attack deals double damage.",
 	"KAGUYA-TURN_COUNTER_POWER.title": "End Timer",
-	"KAGUYA-TURN_COUNTER_POWER.description": "When the timer reaches [red]7[/red], end your life and reset all your [gold]powers[/gold].\nDefeating Tsukito minions might delay it?"
+	"KAGUYA-TURN_COUNTER_POWER.description": "When the timer reaches [red]7[/red], end your life and reset all your [gold]powers[/gold].\nDefeating Tsukito minions might delay it?",
+	"KAGUYA-TURN_COUNTER_POWER.smartDescription": "When the timer reaches [red]7[/red], end your life and reset all your [gold]powers[/gold].\nDefeating Tsukito minions might delay it?",
+
+	"KAGUYA-FORTUNE_POWER.title": "Moonlight",
+	"KAGUYA-FORTUNE_POWER.description": "Gain a special buff that provides additional benefits to certain cards.",
+	"KAGUYA-FORTUNE_POWER.smartDescription": "Moonlight accumulates, eventually becoming the final movement.",
+
+	"KAGUYA-TSUKIMI_TIME_POWER.title": "Moon Sights",
+	"KAGUYA-TSUKIMI_TIME_POWER.description": "Eight thousand years of longing. Each time you gain 1 [gold]Moonlight[/gold], gain an equal amount × 80 [gold]Moon Sights[/gold]. Upon reaching certain thresholds, add the corresponding Status card to your [gold]draw pile[/gold]. Upon reaching 8000, gain [gold]Moon View Stance[/gold].",
+	"KAGUYA-TSUKIMI_TIME_POWER.smartDescription": "Each time you gain 1 [gold]Moonlight[/gold], gain an equal amount × 80 [gold]Moon Sights[/gold]. Upon reaching cumulative thresholds, add the corresponding Status card to your [gold]draw pile[/gold]. Upon reaching 8000, unlock [gold]Moon View Stance[/gold].",
+
+	"KAGUYA-SUPPORT_ATTACK_POWER.title": "Attack Support",
+	"KAGUYA-SUPPORT_ATTACK_POWER.description": "The next Attack you play this turn costs {energyPrefix:energyIcons(1)} less.",
+	"KAGUYA-SUPPORT_ATTACK_POWER.smartDescription": "Your next [gold]Attack[/gold] this turn costs 1 less.",
+
+	"KAGUYA-SUPPORT_SKILL_POWER.title": "Skill Support",
+	"KAGUYA-SUPPORT_SKILL_POWER.description": "The next Skill you play this turn costs {energyPrefix:energyIcons(1)} less.",
+	"KAGUYA-SUPPORT_SKILL_POWER.smartDescription": "Your next [blue]Skill[/blue] this turn costs 1 less.",
+
+	"KAGUYA-TSUKIMI_CONTRACT_POWER.title": "Climax",
+	"KAGUYA-TSUKIMI_CONTRACT_POWER.description": "Each time you play a card this turn, gain 1 [gold]Moonlight[/gold].",
+	"KAGUYA-TSUKIMI_CONTRACT_POWER.smartDescription": "Each time you play a card this turn, gain 1 [gold]Moonlight[/gold].",
+
+	"KAGUYA-TSUKIMI_BLESSING_POWER.title": "Moon View Stance",
+	"KAGUYA-TSUKIMI_BLESSING_POWER.description": "Yachiyo Form. At the start of each combat, heal 5% of your Max HP. At the start of each turn, gain {energyPrefix:energyIcons(1)} and draw 1 card.",
+	"KAGUYA-TSUKIMI_BLESSING_POWER.smartDescription": "At the start of combat, heal 5% of your Max HP. At the start of each turn, gain {energyPrefix:energyIcons(1)} and draw 1 card.",
+
+	"KAGUYA-SUPPORT_STRIKE_AURA_POWER.title": "Coordinated Ops",
+	"KAGUYA-SUPPORT_STRIKE_AURA_POWER.description": "Each time you play a Skill card this turn, add 1 [blue]Support Strike[/blue] to your hand.",
+	"KAGUYA-SUPPORT_STRIKE_AURA_POWER.smartDescription": "Each time you play a [blue]Skill[/blue] card this turn, add 1 [blue]Support Strike[/blue] to your hand.",
+
+	"KAGUYA-GROWTH_POWER.title": "Growth",
+	"KAGUYA-GROWTH_POWER.description": "At the end of your turn, gain 1 [gold]Moonlight[/gold].",
+	"KAGUYA-GROWTH_POWER.smartDescription": "At the end of your turn, gain 1 [gold]Moonlight[/gold].",
+
+	"KAGUYA-MOONLIGHT_BLOCK_POWER.title": "Moon Gate",
+	"KAGUYA-MOONLIGHT_BLOCK_POWER.description": "Each time you consume 1 [gold]Moonlight[/gold], gain 2 Block.",
+	"KAGUYA-MOONLIGHT_BLOCK_POWER.smartDescription": "Each time you consume 1 [gold]Moonlight[/gold], gain {Amount} Block.",
+
+	"KAGUYA-SUPPORT_AURA_POWER.title": "Weapon Swap",
+	"KAGUYA-SUPPORT_AURA_POWER.description": "Each time you play a [blue]Support[/blue] Attack card, gain 1 [gold]Strength[/gold]. Each time you play a [blue]Support[/blue] Skill card, gain 1 [gold]Dexterity[/gold].",
+	"KAGUYA-SUPPORT_AURA_POWER.smartDescription": "Each time you play a [blue]Support Attack[/blue] card, gain 1 [gold]Strength[/gold]. Each time you play a [blue]Support Skill[/blue] card, gain 1 [gold]Dexterity[/gold].",
+
+	"KAGUYA-TSUKIMI_FORM_POWER.title": "Celestial Form",
+	"KAGUYA-TSUKIMI_FORM_POWER.description": "At the end of your turn, gain 2 [gold]Moonlight[/gold]. At the start of your turn, consume 2 [gold]Moonlight[/gold] to gain {energyPrefix:energyIcons(1)}; if [gold]Moonlight[/gold] ≥ 10, gain an additional {energyPrefix:energyIcons(1)}.",
+	"KAGUYA-TSUKIMI_FORM_POWER.smartDescription": "At the end of your turn, gain {Amount} [gold]Moonlight[/gold]. At the start of your turn, consume 2 [gold]Moonlight[/gold] to gain 1 energy; if [gold]Moonlight[/gold] ≥ 10, gain 1 additional energy.",
+
+	"KAGUYA-TSUKIMI_DRAW_BUFF.title": "Starlit Brilliance",
+	"KAGUYA-TSUKIMI_DRAW_BUFF.description": "Whenever you draw a card, gain 1 [gold]Moonlight[/gold].",
+	"KAGUYA-TSUKIMI_DRAW_BUFF.smartDescription": "Whenever you draw a card, gain 1 [gold]Moonlight[/gold].",
+
+	"KAGUYA-TSUKIMI_ROBE_BUFF.title": "Heavenly Robe",
+	"KAGUYA-TSUKIMI_ROBE_BUFF.description": "At the end of your turn, gain 1 Block for each [gold]Moonlight[/gold] you have.",
+	"KAGUYA-TSUKIMI_ROBE_BUFF.smartDescription": "At the end of your turn, gain {Amount} Block for each [gold]Moonlight[/gold] you have.",
+
+	"KAGUYA-SUPPORT_RHYTHM_POWER.title": "Curtain Raiser",
+	"KAGUYA-SUPPORT_RHYTHM_POWER.description": "Every 3 [blue]Support[/blue] cards played, draw 1 card.",
+	"KAGUYA-SUPPORT_RHYTHM_POWER.smartDescription": "Every 3 [blue]Support[/blue] cards played, draw 1 card.",
+
+	"KAGUYA-SUPPORT_ORBIT_POWER.title": "Golden Scale",
+	"KAGUYA-SUPPORT_ORBIT_POWER.description": "Every 5 [blue]Support[/blue] cards played, gain {energyPrefix:energyIcons(1)}.",
+	"KAGUYA-SUPPORT_ORBIT_POWER.smartDescription": "Every 5 [blue]Support[/blue] cards played, gain 1 energy.",
+
+	"KAGUYA-SUPPORT_CHANNELING_POWER.title": "Banquet",
+	"KAGUYA-SUPPORT_CHANNELING_POWER.description": "The first time you play an Attack card each turn, gain a [blue]Support Strike[/blue]. The first time you play a Skill card each turn, gain a [blue]Care[/blue].",
+	"KAGUYA-SUPPORT_CHANNELING_POWER.smartDescription": "The first Attack each turn: gain a [blue]Support Strike[/blue]. The first Skill each turn: gain a [blue]Care[/blue].",
+
+	"KAGUYA-SINGER_MOON_AO_E_POWER.title": "Gaze",
+	"KAGUYA-SINGER_MOON_AO_E_POWER.description": "Whenever you gain or consume [gold]Moonlight[/gold], deal 3 damage to ALL enemies.",
+	"KAGUYA-SINGER_MOON_AO_E_POWER.smartDescription": "Whenever you gain or consume [gold]Moonlight[/gold], deal 3 damage to ALL enemies.",
+
+	"KAGUYA-LEAD_POWER.title": "Peach",
+	"KAGUYA-LEAD_POWER.description": "At the start of your turn, gain {energyPrefix:energyIcons(2)} and gain [blue]Leap[/blue] and [blue]Inspire[/blue].",
+	"KAGUYA-LEAD_POWER.smartDescription": "At the start of your turn, gain 2 energy, and gain [blue]Leap[/blue] and [blue]Inspire[/blue].",
+
+	"KAGUYA-SUPPORT_FORGE_POWER.title": "Under Fireworks",
+	"KAGUYA-SUPPORT_FORGE_POWER.description": "Cards you obtain this combat are [gold]upgraded[/gold].",
+	"KAGUYA-SUPPORT_FORGE_POWER.smartDescription": "Cards you obtain this combat are [gold]upgraded[/gold].",
+
+	"KAGUYA-SINGER_CONVERT_POWER.title": "Shining Stage",
+	"KAGUYA-SINGER_CONVERT_POWER.description": "At the start of each turn, add one [gold]Performance[/gold] to your hand.",
+	"KAGUYA-SINGER_CONVERT_POWER.smartDescription": "At the start of each turn, add one [gold]Performance[/gold] to your hand.",
+
+	"KAGUYA-FORTUNE_GUARD_POWER.title": "Piece of Cake",
+	"KAGUYA-FORTUNE_GUARD_POWER.description": "At the start of your turn, if you took no unblocked damage last turn, gain 5 [gold]Moonlight[/gold].",
+	"KAGUYA-FORTUNE_GUARD_POWER.smartDescription": "At the start of your turn, if you took no unblocked damage last turn, gain 5 [gold]Moonlight[/gold].",
+
+	"KAGUYA-SINGER_CASCADE_POWER.title": "Reverberation",
+	"KAGUYA-SINGER_CASCADE_POWER.description": "At the end of your turn, play the last [purple]Song[/purple] card you played this turn automatically.",
+	"KAGUYA-SINGER_CASCADE_POWER.smartDescription": "At the end of your turn, play the last [purple]Song[/purple] card you played this turn automatically.",
+
+	"KAGUYA-PERFORMANCE_POWER.title": "Performance",
+	"KAGUYA-PERFORMANCE_POWER.description": "Your next Attack does not consume [gold]Vigor[/gold].",
+	"KAGUYA-PERFORMANCE_POWER.smartDescription": "When you play your next Attack, refund all [gold]Vigor[/gold] consumed.",
+
+	"KAGUYA-STAR_NIGHT_POWER.title": "Sound-Seeking",
+	"KAGUYA-STAR_NIGHT_POWER.description": "After you play your next card, give it 1 [gold]Replay[/gold] and [gold]Ethereal[/gold].",
+	"KAGUYA-STAR_NIGHT_POWER.smartDescription": "After you play your next card, give it 1 [gold]Replay[/gold] and [gold]Ethereal[/gold]."
 }

@@ -291,7 +291,7 @@
 	"KAGUYA-SINGER_SUPPORT_GUARD.title": "声援",
 	"KAGUYA-SINGER_SUPPORT_GUARD.description": "[purple]歌声[/purple]：获得{Block:diff()}点格挡。\n从[gold]手牌[/gold]选择1张[purple]歌声[/purple]牌[gold]升级[/gold]",
 	"KAGUYA-HOME_RUN.title": "旋风锤",
-	"KAGUYA-HOME_RUN.description": "对所有敌人造成{CalculatedDamage:diff()}点伤害。\n每打出一张[blue]支援打击[/blue]，本场战斗中此牌伤害增加{IncreasePerSupport:diff()}。",
+	"KAGUYA-HOME_RUN.description": "对所有敌人造成{CalculatedDamage:diff()}点伤害。每打出一张[blue]支援攻击牌[/blue]，本场战斗中伤害+{IncreasePerSupport:diff()}。",
 
 	"KAGUYA-RALLY_SUPPORT_CARD.title": "八方援护",
 	"KAGUYA-RALLY_SUPPORT_CARD.description": "将 {IfUpgraded:show:X+1|X} 张[blue]支援[/blue]牌加入[gold]手牌[/gold]。",

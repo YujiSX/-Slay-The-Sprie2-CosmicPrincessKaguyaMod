@@ -1,7 +1,6 @@
-using BaseLib.Utils;
+﻿using BaseLib.Utils;
 using Godot;
 using Kaguya.HinaMods.Powers;
-using Kaguya.HinaMods.SupportCards.Common;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
@@ -17,7 +16,7 @@ using System.Threading.Tasks;
 namespace Kaguya.HinaMods.Cards;
 
 /// <summary>
-/// 支援打击光环：获得【支援打击光环】BUFF
+/// 支援打击光环：获得【支援打击光环】BUFF。消耗。
 /// </summary>
 public sealed class SupportStrikeAuraCard : HinaModsCard
 {
@@ -25,19 +24,22 @@ public sealed class SupportStrikeAuraCard : HinaModsCard
     public SupportStrikeAuraCard()
         : base(1, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
     { }
+
+    public override HashSet<string> CustomTags => new HashSet<string>() { CustomCardTags.SUPPORTCARD };
+
+    public override List<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
+
     protected override IEnumerable<IHoverTip> GetCustomHoverTips()
     {
         return new IHoverTip[]
         {
-             HoverTipFactory.FromPower<SupportStrikeAuraPower>(),
-             HoverTipFactory.FromCard<SupportStrike>()
+             HoverTipFactory.FromPower<SupportStrikeAuraPower>()
         };
     }
 
     // 核心打出逻辑
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        // 🔥 唯一修复：补全官方强制参数 choiceContext
         await PowerCmd.Apply<SupportStrikeAuraPower>(
             choiceContext,
             Owner.Creature,
@@ -46,9 +48,9 @@ public sealed class SupportStrikeAuraCard : HinaModsCard
             this);
     }
 
-    // 升级：获得保留
+    // 升级：移除消耗
     protected override void OnUpgrade()
     {
-        AddKeyword(CardKeyword.Retain);
+        RemoveKeyword(CardKeyword.Exhaust);
     }
 }

@@ -1,4 +1,4 @@
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Players;
@@ -10,13 +10,15 @@ namespace Kaguya.Relics
 {
     public sealed class MemoryRecallRestSiteOption : RestSiteOption
     {
+        private bool _isEnabled;
+        public override bool IsEnabled => _isEnabled;
         public override string OptionId => "MEMORY_RECALL";
 
         public override LocString Description
         {
             get
             {
-                if (IsEnabled)
+                if (_isEnabled)
                 {
                     return new LocString("rest_site_ui", "OPTION_MEMORY_RECALL.description");
                 }
@@ -27,7 +29,7 @@ namespace Kaguya.Relics
         public MemoryRecallRestSiteOption(Player owner) : base(owner)
         {
             // 仅当玩家拥有任一可升级的记忆碎片时启用
-            IsEnabled = owner.Relics.Any(r =>
+            _isEnabled = owner.Relics.Any(r =>
                 r is MemoryFragmentStart ||
                 r is MemoryFragmentDaily ||
                 r is MemoryFragmentConcert);
@@ -35,7 +37,7 @@ namespace Kaguya.Relics
 
         public override async Task<bool> OnSelect()
         {
-            if (!IsEnabled) return false;
+            if (!_isEnabled) return false;
 
 
             // 2. 查找当前持有的记忆碎片（按升级顺序）
