@@ -21,7 +21,7 @@
 	"MOON_NEWS.pages.INITIAL.options.LISTEN.title": "ニュースを聞く",
 	"MOON_NEWS.pages.INITIAL.options.LISTEN.description": "[gold]ヤチヨカップ[/gold]を獲得する。",
 	"MOON_NEWS.pages.INITIAL.options.REJECT.title": "聞くのを拒否する",
-	"MOON_NEWS.pages.INITIAL.options.REJECT.description": "[green]{Heal}[/green]HPを回復する。",
+	"MOON_NEWS.pages.INITIAL.options.REJECT.description": "HPを[green]{Heal}[/green]回復する。",
 	"MOON_NEWS.pages.LISTEN.description": "ニュースを最後まで聞き、ヤチヨカップについて何となく理解した。",
 	"MOON_NEWS.pages.REJECT.description": "手を振って、安堵の気持ちを感じる。",
 	"YACHIYO_CUP_EVENT.title": "ヤチヨカップ",

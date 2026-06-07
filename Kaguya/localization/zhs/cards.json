@@ -1,5 +1,5 @@
 {
-"KAGUYA-REMEMBER.title": "Remember",
+	"KAGUYA-REMEMBER.title": "Remember",
 	"KAGUYA-REMEMBER.description": "从[gold]抽牌堆[/gold]和[gold]弃牌堆[/gold]选择一张牌[gold]回忆[/gold]。",
 	"STARLIT_SEA.title": "星降る海",
 	"STARLIT_SEA.description": "每回合开始时，你可以从[gold]消耗牌堆[/gold]将1张牌加入手牌并抽 {Cards:diff()} 张牌。\n除首次外每次其费用增加 1 ",
@@ -197,7 +197,7 @@
 	"KAGUYA-SHUT_UP.description": "获得{Block:diff()}点格挡。\n给予{WeakPower:diff()}层[gold]虚弱[/gold]。\n移除2层[gold]过劳[/gold]。",
 	"KAGUYA-FUTURE_PLAN.title": "未来规划",
 	"KAGUYA-FUTURE_PLAN.description": "每回合开始时，将一张随机0费牌加入你的[gold]手牌[/gold]。",
-	"KAGUYA-KURAKAWA_HIGH_SCHOOL.title": "仓川高中",
+	"KAGUYA-KURAKAWA_HIGH_SCHOOL.title": "武藏川高中",
 	"KAGUYA-KURAKAWA_HIGH_SCHOOL.description": "你每回合第一张[gold]伙伴[/gold]卡可以免费打出。",
 	"KAGUYA-RESEARCH.title": "研究",
 	"KAGUYA-RESEARCH.description": "从[gold]抽牌堆[/gold]将一张牌加入[gold]手牌[/gold]。",
@@ -226,7 +226,9 @@
 	"KAGUYA-GOOD_ENDING.title": "好结局",
 	"KAGUYA-GOOD_ENDING.description": "存活12回合后，[gold]获得胜利[/gold]。",
 	"KAGUYA-DETERMINATION.title": "决心",
-	"KAGUYA-DETERMINATION.description": "获得{Energy:energyIcons()}，抽{Cards:diff()}张牌。\n使你的下一张攻击牌造成的伤害翻倍。","KAGUYA-HINA_MODS_ATTACK.title": "打击",
+	"KAGUYA-DETERMINATION.description": "获得{Energy:energyIcons()}，抽{Cards:diff()}张牌。\n使你的下一张攻击牌造成的伤害翻倍。",
+	
+	"KAGUYA-HINA_MODS_ATTACK.title": "打击",
 	"KAGUYA-HINA_MODS_ATTACK.description": "造成{Damage:diff()}点伤害",
 	"KAGUYA-HINA_MODS_BLOCK.title": "格挡",
 	"KAGUYA-HINA_MODS_BLOCK.description": "获得{Block:diff()}点格挡",
@@ -291,7 +293,7 @@
 	"KAGUYA-SINGER_SUPPORT_GUARD.title": "声援",
 	"KAGUYA-SINGER_SUPPORT_GUARD.description": "[purple]歌声[/purple]：获得{Block:diff()}点格挡。\n从[gold]手牌[/gold]选择1张[purple]歌声[/purple]牌[gold]升级[/gold]",
 	"KAGUYA-HOME_RUN.title": "旋风锤",
-	"KAGUYA-HOME_RUN.description": "对所有敌人造成{CalculatedDamage:diff()}点伤害。每打出一张[blue]支援攻击牌[/blue]，本场战斗中伤害+{IncreasePerSupport:diff()}。",
+	"KAGUYA-HOME_RUN.description": "对所有敌人造成{CalculatedDamage:diff()}点伤害。每打出一张[blue]支援攻击牌[/blue]，本场战斗中伤害增加{IncreasePerSupport:diff()}。",
 
 	"KAGUYA-RALLY_SUPPORT_CARD.title": "八方援护",
 	"KAGUYA-RALLY_SUPPORT_CARD.description": "将 {IfUpgraded:show:X+1|X} 张[blue]支援[/blue]牌加入[gold]手牌[/gold]。",

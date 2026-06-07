@@ -1,5 +1,5 @@
 {
-"KAGUYA-SAKAYORI_IROHA.aromaPrinciple": "[sine][blue]……等待……[/blue][/sine]",
+  "KAGUYA-SAKAYORI_IROHA.aromaPrinciple": "[sine][blue]……等待……[/blue][/sine]",
   "KAGUYA-SAKAYORI_IROHA.banter.alive.endTurnPing": "你搞砸了我可不管你",
   "KAGUYA-SAKAYORI_IROHA.banter.dead.endTurnPing": "……",
   "KAGUYA-SAKAYORI_IROHA.cardsModifierDescription": "彩叶的卡牌现在会出现在奖励和商店中。",
@@ -13,7 +13,8 @@
   "KAGUYA-SAKAYORI_IROHA.pronounSubject": "她",
   "KAGUYA-SAKAYORI_IROHA.title": "酒寄彩叶",
   "KAGUYA-SAKAYORI_IROHA.titleObject": "酒寄彩叶",
-  "KAGUYA-SAKAYORI_IROHA.unlockText": "解锁这个角色。","KAGUYA-HINA_CHARACTER.title": "辉夜",
+  "KAGUYA-SAKAYORI_IROHA.unlockText": "解锁这个角色。",
+  "KAGUYA-HINA_CHARACTER.title": "辉夜",
   "KAGUYA-HINA_CHARACTER.titleObject": "辉夜",
   "KAGUYA-HINA_CHARACTER.description": "她是好奇心旺盛的少女，从月亮而来，于七色游戏电线杆中现身。性格开朗爱撒娇，有时略显随心所欲。遇彩叶后，她理解了人类情感、懂得爱与抗争，曾回月亮，却因彩叶的歌声决心重返地球。",
   "KAGUYA-HINA_CHARACTER.pronounObject": "她",
