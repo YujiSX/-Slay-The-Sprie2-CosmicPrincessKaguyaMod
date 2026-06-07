@@ -1,6 +1,6 @@
 {
   "KAGUYA-SAKAYORI_IROHA.aromaPrinciple": "[sine][blue]……待つ……[/blue][/sine]",
-  "KAGUYA-SAKAYORI_IROHA.banter.alive.endTurnPing": "失敗しても知らないよ",
+  "KAGUYA-SAKAYORI_IROHA.banter.alive.endTurnPing": "ミスっても私は置いてく",
   "KAGUYA-SAKAYORI_IROHA.banter.dead.endTurnPing": "……",
   "KAGUYA-SAKAYORI_IROHA.cardsModifierDescription": "彩葉のカードが報酬やショップに出現するようになる。",
   "KAGUYA-SAKAYORI_IROHA.cardsModifierTitle": "彩葉カード",
@@ -13,5 +13,19 @@
   "KAGUYA-SAKAYORI_IROHA.pronounSubject": "彼女",
   "KAGUYA-SAKAYORI_IROHA.title": "酒寄彩葉",
   "KAGUYA-SAKAYORI_IROHA.titleObject": "酒寄彩葉",
-  "KAGUYA-SAKAYORI_IROHA.unlockText": "このキャラクターをアンロックする。"
+  "KAGUYA-SAKAYORI_IROHA.unlockText": "このキャラクターをアンロックする。",
+  "KAGUYA-HINA_CHARACTER.title": "かぐや",
+  "KAGUYA-HINA_CHARACTER.titleObject": "かぐや",
+  "KAGUYA-HINA_CHARACTER.description": "月からやってきた謎の少女。\n楽しいことを求めて、仮想空間『ツクヨミ』でライバー(配信者)活動を始めてみることに。\n元気いっぱいで破天荒。彩葉のことが大好き。",
+  "KAGUYA-HINA_CHARACTER.pronounObject": "彼女",
+  "KAGUYA-HINA_CHARACTER.possessiveAdjective": "彼女の",
+  "KAGUYA-HINA_CHARACTER.pronounPossessive": "彼女のもの",
+  "KAGUYA-HINA_CHARACTER.pronounSubject": "彼女",
+  "KAGUYA-HINA_CHARACTER.cardsModifierTitle": "かぐやカード",
+  "KAGUYA-HINA_CHARACTER.cardsModifierDescription": "かぐやのカードがショップと報酬に出現するようになる。",
+  "KAGUYA-HINA_CHARACTER.aromaPrinciple": "[gold]かぐや[/gold]",
+  "KAGUYA-HINA_CHARACTER.eventDeathPrevention": "彩葉…",
+  "KAGUYA-HINA_CHARACTER.banter.alive.endTurnPing": "かぐやが早くしろって言ってるよ…",
+  "KAGUYA-HINA_CHARACTER.banter.dead.endTurnPing": "彩葉…家に帰りたい…",
+  "KAGUYA-HINA_CHARACTER.goldMonologue": "[sine]ゴールドだ…[/sine]..."
 }

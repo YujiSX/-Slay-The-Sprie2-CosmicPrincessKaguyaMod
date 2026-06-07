@@ -16,6 +16,7 @@
 	"YACHIYO_ANCIENT.pages.INITIAL.options.COSTUME_SYSTEM.title": "着替えシステム",
 	"YACHIYO_ANCIENT.pages.INITIAL.options.YACCHO_SPECIAL_CARE.title": "ヤチヨの特別サービス",
 	"YACHIYO_ANCIENT.pages.INITIAL.options.GASHAPON_MACHINE_L1.title": "ガチャマシン",
+	"YACHIYO_ANCIENT.pages.INITIAL.options.THOUGHT_ENCHANTMENT.title": "想いの髪束",
 
 	"YACHIYO_ANCIENT.talk.firstVisitEver.0-0.ancient": "ヤオヨロー！神々のみんな、今日も最高だった？",
 	"YACHIYO_ANCIENT.talk.firstVisitEver.0-0.next": "続ける",
@@ -83,9 +84,10 @@
 	"BLACK_ONYX.pages.INITIAL.options.DATA_USB.title": "データUSB",
 	"BLACK_ONYX.pages.INITIAL.options.BROTHERS_DEPOSIT.title": "兄の貯金",
 	"BLACK_ONYX.pages.INITIAL.options.NAI_BOW.title": "乃依の弓",
-	"BLACK_ONYX.pages.INITIAL.options.LANDMINE_TRAP.title": "地雷罠",
+	"BLACK_ONYX.pages.INITIAL.options.LANDMINE_TRAP.title": "地雷トラップ",
 	"BLACK_ONYX.pages.INITIAL.options.LEI_BIG_SWORD.title": "雷の大刀",
 	"BLACK_ONYX.pages.INITIAL.options.GASHAPON_MACHINE_L2.title": "ガチャマシン",
+	"BLACK_ONYX.pages.INITIAL.options.CHALLENGE_LETTER.title": "挑戦状",
 
 	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-0.ancient": "よう、子ウサギども！",
 	"BLACK_ONYX_ANCIENT.talk.firstVisitEver.0-0.next": "続ける",
@@ -153,5 +155,29 @@
 	"FUSHI_ANCIENT.talk.firstVisitEver.0-1.char": "...",
 	"FUSHI_ANCIENT.talk.firstVisitEver.0-1.next": "続ける",
 	"FUSHI_ANCIENT.talk.firstVisitEver.0-2.ancient": "すべてを書き換えに行こう！",
-	"FUSHI_ANCIENT.talk.ANY.0-0r.ancient": "彼女はいつだってあなたを信じているよ…"
+	"FUSHI_ANCIENT.talk.ANY.0-0r.ancient": "彼女はいつだってあなたを信じているよ…",
+
+	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.0-0.char": "私は月から来たかぐや～七色の光の柱を伝ってここに飛び込んできたの。彩葉を探しているんだ。",
+	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.0-0.next": "続ける",
+	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.0-1.ancient": "月からの来訪者が、ただの人の執着のために塔に足を踏み入れるとは、不届き千万。",
+	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.0-1.next": "答える",
+	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.0-2.char": "彩葉の歌声が私を導いたの！彼女に出会って初めて気持ちがわかった。必ず彼女を見つける。",
+
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.1-0r.char": "ただいま！ここは変だけど面白いね。でもやっぱり彩葉を探しに行くから、邪魔しないで。",
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.1-0r.next": "続ける",
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.1-1r.ancient": "虚ろな絆のために時空を超えるなど、ただの迷いに過ぎぬ。",
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.1-1r.next": "反論する",
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.1-2r.char": "迷いなんかじゃない！彩葉は私にとって一番大切な人。彼女のためなら何度だって時を超える価値がある。",
+
+	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.2-0r.char": "あなたが秩序を守ろうとしてるのはわかる、面倒は起こしたくない……でも彩葉に会うのを止めないで。",
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.2-0r.next": "続ける",
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.2-1r.ancient": "外来者に塔の掟を破る権利はない。その執念がやがてお前を消し去るだろう。",
+    "THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.2-1r.next": "宣戦する",
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.2-2r.char": "消えたりしない！腕輪の中の歌声が私を導いてくれる。誰にも止められない。",
+
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.3-0r.ancient": "[jitter]フハ！[/jitter]\n[jitter][red]感情に囚われた月の残響、滑稽極まる、消え去れ！[/red][/jitter]",
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.3-0r.next": "続ける",
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.3-1r.ancient": "我儘で宿命と秩序に逆らうとは、あまりに浅はか！[jitter][/jitter]",
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.3-1r.next": "続ける",
+  	"THE_ARCHITECT.talk.KAGUYA-HINA_CHARACTER.3-2r.char": "浅はかじゃない！彩葉の歌声こそが私の力。秩序を打ち破って彼女のもとへ帰るんだ！"
 }
